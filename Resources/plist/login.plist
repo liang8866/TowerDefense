@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"/>
+<plist version="1.0">
+    <dict>
+        <key>1</key>
+        <dict>
+            <key>info</key>
+            <string>第 一 天</string>
+            <key>award</key>
+            <dict>
+                <key>gold</key>
+                <string>200</string>
+            </dict>
+        </dict>
+        <key>2</key>
+        <dict>
+            <key>info</key>
+            <string>第 二 天</string>
+            <key>award</key>
+            <dict>
+                <key>gold</key>
+                <string>300</string>
+            </dict>
+        </dict>
+        <key>3</key>
+        <dict>
+            <key>info</key>
+            <string>第 三 天</string>
+            <key>award</key>
+            <dict>
+                <key>gold</key>
+                <string>400</string>
+                <key>advance_egg</key>
+                <string>2</string>
+            </dict>
+        </dict>
+        <key>4</key>
+        <dict>
+            <key>info</key>
+            <string>第 四 天</string>
+            <key>award</key>
+            <dict>
+                <key>gold</key>
+                <string>500</string>
+                <key>hero_soul</key>
+                <string>10</string>
+            </dict>
+        </dict>
+        <key>5</key>
+        <dict>
+            <key>info</key>
+            <string>第 五 天</string>
+            <key>award</key>
+            <dict>
+                <key>gold</key>
+                <string>600</string>
+                <key>hero_soul</key>
+                <string>15</string>
+            </dict>
+        </dict>
+        <key>6</key>
+        <dict>
+            <key>info</key>
+            <string>第 六 天</string>
+            <key>award</key>
+            <dict>
+                <key>gold</key>
+                <string>700</string>
+                <key>hero_soul</key>
+                <string>20</string>
+                <key>wish_egg</key>
+                <string>2</string>
+            </dict>
+        </dict>
+        <key>7</key>
+        <dict>
+            <key>info</key>
+            <string>第 七 天</string>
+            <key>award</key>
+            <dict>
+                <key>gold</key>
+                <string>800</string>
+                <key>hero_soul</key>
+                <string>25</string>
+                <key>wish_egg</key>
+                <string>2</string>
+                <key>advance_egg</key>
+                <string>8</string>
+            </dict>
+        </dict>
+    </dict>
+</plist>

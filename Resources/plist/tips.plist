@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<string>小提示：合理的升级天赋可以使战斗更轻松哦！</string>
+	<key>2</key>
+	<string>小提示：英雄的等级越高，能力越强</string>
+	<key>3</key>
+	<string>小提示：相同等级的英雄，品阶越高的越厉害哦！</string>
+	<key>4</key>
+	<string>小提示：给一个兵种升级后，其他相同的兵种等级也会提高</string>
+	<key>5</key>
+	<string>小提示：陷阱不会被敌人攻击到</string>
+	<key>6</key>
+	<string>小提示：魔法的威力强大，灵活使用可以马上扭转战局</string>
+	<key>7</key>
+	<string>小提示：给糖果机增加工位可以获得源源不断的糖果币</string>
+	<key>9</key>
+	<string>小提示：英雄是扭转战局的关键</string>
+	<key>10</key>
+	<string>小提示：地下层最多可以拥有五层</string>
+	<key>11</key>
+	<string>小提示：每层内除英雄外最多允许部署四个单位</string>
+	<key>12</key>
+	<string>小提示：不同单位之间相互配合是取胜的关键</string>
+</dict>
+</plist>

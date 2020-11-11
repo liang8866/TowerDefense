@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1001</key>
+	<string>网络连接失败,是否要重试呢?</string>
+	<key>1002</key>
+	<string>亲!还是连不上哟,请检查网络_n并重试吧!</string>
+	<key>1003</key>
+	<string>亲!你的金币不够哟!</string>
+	<key>1004</key>
+	<string>亲!你的英雄之魂不够哟!</string>
+	<key>1005</key>
+	<string>花费1000金币购买一个位置吗?</string>
+	<key>1006</key>
+	<string>花费金币解锁一个作战单位吗?</string>
+	<key>1007</key>
+	<string>确定要购买吗?</string>
+	<key>1008</key>
+	<string>服务器连接失败</string>
+	<key>1009</key>
+	<string>是否进入新手引导？</string>
+	<key>1010</key>
+	<string>新区</string>
+	<key>1011</key>
+	<string>良好</string>
+	<key>1012</key>
+	<string>爆满</string>
+	<key>1013</key>
+	<string>区</string>
+	<key>1014</key>
+	<string>确定退出游戏吗?</string>
+	<key>1015</key>
+	<string>提示信息</string>
+</dict>
+</plist>

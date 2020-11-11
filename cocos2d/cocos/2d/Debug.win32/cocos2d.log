@@ -1,0 +1,975 @@
+﻿生成启动时间为 2014/9/26 9:41:01。
+     1>项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”在节点 2 上(Build 个目标)。
+     1>正在使用工具版本“4.0”进行生成。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_CheckForInvalidConfigurationAndPlatform”(入口点):
+       由于 false 条件，已跳过任务“Error”；( '$(_InvalidConfigurationError)' == 'true' )计算为( '' == 'true' )。
+       由于 false 条件，已跳过任务“Warning”；( '$(_InvalidConfigurationWarning)' == 'true' )计算为( '' == 'true' )。
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Message”任务。
+       任务“Message”
+         Configuration=Debug
+       已完成执行任务“Message”的操作。
+       任务“Message”
+         Platform=Win32
+       已完成执行任务“Message”的操作。
+       由于 false 条件，已跳过任务“Error”；('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)'))计算为('D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\' != '' and !HasTrailingSlash('D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\'))。
+       由于 false 条件，已跳过任务“Error”；('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)'))计算为('obj\' != '' and !HasTrailingSlash('obj\'))。
+       由于 false 条件，已跳过任务“Error”；('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)'))计算为('Debug.win32\' != '' and !HasTrailingSlash('Debug.win32\'))。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_CheckForInvalidConfigurationAndPlatform”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets”中的目标“_PrepareForBuild”(目标“Build”依赖于它):
+       由于 false 条件，已跳过任务“CreateItem”；('%(CustomBuild.IncludeFileToTool)'!='')计算为(''!='')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_PrepareForBuild”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_PrepareForReferenceResolution”(目标“ResolveReferences”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('$(_REFERENCE_DEBUG)'=='true')计算为(''=='true')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_PrepareForReferenceResolution”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeCrtSDKReference”；('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')的计算结果为('..\..\external\edtaa3func\edtaa3func.cpp;..\..\external\tinyxml2\tinyxml2.cpp;..\..\external\unzip\ioapi.cpp;..\..\external\unzip\unzip.cpp;..\..\external\xxhash\xxhash.c;..\base\atitc.cpp;..\base\CCAffineTransform.cpp;..\base\CCAutoreleasePool.cpp;..\base\CCConsole.cpp;..\base\CCData.cpp;..\base\CCDataVisitor.cpp;..\base\CCGeometry.cpp;..\base\CCNS.cpp;..\base\CCRef.cpp;..\base\CCValue.cpp;..\base\etc1.cpp;..\base\s3tc.cpp;..\deprecated\CCArray.cpp;..\deprecated\CCDeprecated.cpp;..\deprecated\CCDictionary.cpp;..\deprecated\CCNotificationCenter.cpp;..\deprecated\CCSet.cpp;..\deprecated\CCString.cpp;..\math\kazmath\kazmath\aabb.c;..\math\kazmath\kazmath\GL\mat4stack.c;..\math\kazmath\kazmath\GL\matrix.c;..\math\kazmath\kazmath\mat3.c;..\math\kazmath\kazmath\mat4.c;..\math\kazmath\kazmath\neon_matrix_impl.c;..\math\kazmath\kazmath\plane.c;..\math\kazmath\kazmath\quaternion.c;..\math\kazmath\kazmath\ray2.c;..\math\kazmath\kazmath\ray3.c;..\math\kazmath\kazmath\utility.c;..\math\kazmath\kazmath\vec2.c;..\math\kazmath\kazmath\vec3.c;..\math\kazmath\kazmath\vec4.c;..\physics\CCPhysicsBody.cpp;..\physics\CCPhysicsContact.cpp;..\physics\CCPhysicsJoint.cpp;..\physics\CCPhysicsShape.cpp;..\physics\CCPhysicsWorld.cpp;..\physics\chipmunk\CCPhysicsBodyInfo_chipmunk.cpp;..\physics\chipmunk\CCPhysicsContactInfo_chipmunk.cpp;..\physics\chipmunk\CCPhysicsJointInfo_chipmunk.cpp;..\physics\chipmunk\CCPhysicsShapeInfo_chipmunk.cpp;..\physics\chipmunk\CCPhysicsWorldInfo_chipmunk.cpp;base64.cpp;CCAction.cpp;CCActionCamera.cpp;CCActionCatmullRom.cpp;CCActionEase.cpp;CCActionGrid.cpp;CCActionGrid3D.cpp;CCActionInstant.cpp;CCActionInterval.cpp;CCActionManager.cpp;CCActionPageTurn3D.cpp;CCActionProgressTimer.cpp;CCActionTiledGrid.cpp;CCActionTween.cpp;CCAnimation.cpp;CCAnimationCache.cpp;CCAtlasNode.cpp;ccCArray.cpp;CCClippingNode.cpp;CCComponent.cpp;CCComponentContainer.cpp;CCConfiguration.cpp;CCDirector.cpp;CCDrawingPrimitives.cpp;CCDrawNode.cpp;CCEvent.cpp;CCEventAcceleration.cpp;CCEventCustom.cpp;CCEventDispatcher.cpp;CCEventKeyboard.cpp;CCEventListener.cpp;CCEventListenerAcceleration.cpp;CCEventListenerCustom.cpp;CCEventListenerKeyboard.cpp;CCEventListenerMouse.cpp;CCEventListenerTouch.cpp;CCEventMouse.cpp;CCEventTouch.cpp;CCFont.cpp;CCFontAtlas.cpp;CCFontAtlasCache.cpp;CCFontCharMap.cpp;CCFontFNT.cpp;CCFontFreeType.cpp;ccFPSImages.c;CCGLProgram.cpp;ccGLStateCache.cpp;CCGrabber.cpp;CCGrid.cpp;CCNodeGrid.cpp;CCIMEDispatcher.cpp;CCLabel.cpp;CCLabelAtlas.cpp;CCLabelBMFont.cpp;CCLabelTextFormatter.cpp;CCLabelTTF.cpp;CCLayer.cpp;CCMenu.cpp;CCMenuItem.cpp;CCMotionStreak.cpp;CCNode.cpp;CCParallaxNode.cpp;CCParticleBatchNode.cpp;CCParticleExamples.cpp;CCParticleSystem.cpp;CCParticleSystemQuad.cpp;CCProfiling.cpp;CCProgressTimer.cpp;CCRenderTexture.cpp;CCScene.cpp;CCScheduler.cpp;CCScriptSupport.cpp;CCShaderCache.cpp;ccShaders.cpp;CCSprite.cpp;CCSpriteBatchNode.cpp;CCSpriteFrame.cpp;CCSpriteFrameCache.cpp;CCTextFieldTTF.cpp;CCTexture2D.cpp;CCTextureAtlas.cpp;CCTextureCache.cpp;CCTileMapAtlas.cpp;CCTMXLayer.cpp;CCTMXObjectGroup.cpp;CCTMXTiledMap.cpp;CCTMXXMLParser.cpp;CCTouch.cpp;CCTransition.cpp;CCTransitionPageTurn.cpp;CCTransitionProgress.cpp;ccTypes.cpp;CCTweenFunction.cpp;CCUserDefault.cpp;ccUTF8.cpp;ccUtils.cpp;CCVertex.cpp;cocos2d.cpp;platform\CCGLViewProtocol.cpp;platform\CCFileUtils.cpp;platform\CCImage.cpp;platform\CCSAXParser.cpp;platform\CCThread.cpp;platform\desktop\CCGLView.cpp;platform\win32\CCApplication.cpp;platform\win32\CCCommon.cpp;platform\win32\CCDevice.cpp;platform\win32\CCFileUtilsWin32.cpp;platform\win32\CCStdC.cpp;renderer\CCBatchCommand.cpp;renderer\CCCustomCommand.cpp;renderer\CCFrustum.cpp;renderer\CCGroupCommand.cpp;renderer\CCMaterialManager.cpp;renderer\CCQuadCommand.cpp;renderer\CCRenderCommand.cpp;renderer\CCRenderer.cpp;renderer\CCRenderMaterial.cpp;TGAlib.cpp;TransformUtils.cpp;ZipUtils.cpp'!='' and 'false'=='true' and '' != 'false')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BeforeResolveReferences”(目标“ResolveReferences”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“BeforeResolveReferences”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“AssignProjectConfiguration”(目标“ResolveReferences”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“AssignProjectConfiguration”任务。
+       任务“AssignProjectConfiguration”
+       已完成执行任务“AssignProjectConfiguration”的操作。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“AssignProjectConfiguration”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_SplitProjectReferencesByFileExistence”(目标“ResolveProjectReferences”依赖于它):
+       由于 false 条件，已跳过任务“ResolveNonMSBuildProjectOutput”；('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='')计算为('true'=='true' and ''!='')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_SplitProjectReferencesByFileExistence”的操作。
+       由于条件的计算结果为 false，已跳过目标“_RemoveNameMetadataFromProjectReferenceItems”；('@(ProjectReference)'!='')的计算结果为(''!='')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ResolveProjectReferences”(目标“ResolveReferences”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and 'true' == 'true' and '' != '')。
+       由于 false 条件，已跳过任务“Warning”；('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '')计算为('' != '' and '' != '')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ResolveProjectReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“ResolveNativeReferences”；('@(NativeReference)'!='')的计算结果为(''!='')。
+       已跳过目标“_PrepareForReferenceResolution”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets”中的目标“GetFrameworkPaths”(目标“ResolveAssemblyReferences”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“GetFrameworkPaths”的操作。
+       由于条件的计算结果为 false，已跳过目标“GetWinFXPath”；(('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' ))的计算结果为(('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' ))。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“GetReferenceAssemblyPaths”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetReferenceAssemblyPaths”；('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == ''))计算为('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == ''))。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“GetReferenceAssemblyPaths”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.targets”中的目标“SetBuildDefaultEnvironmentVariables”(目标“PrepareForBuild”依赖于它):
+       正在使用程序集“Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“SetEnv”任务。
+       任务“SetEnv”
+         PATH=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.0\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 11.0\;C:\Windows\SysWow64;;.;C:\Program Files\Java\jre7\bin;C:\Python27;E:\MyDeve\cocos2d-x-3.1.1\tools\cocos2d-console\bin;E:\资料库\cocos2d-x-3.0\cocos2d-x-3.0\tools\cocos2d-console\bin;
+       已完成执行任务“SetEnv”的操作。
+       由于 false 条件，已跳过任务“SetEnv”；('$(_IsNativeEnvironment)' == 'true')计算为('' == 'true')。
+       任务“SetEnv”
+         LIB=C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib;C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86;;
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         LIBPATH=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;;
+       已完成执行任务“SetEnv”的操作。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“SetBuildDefaultEnvironmentVariables”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.targets”中的目标“SetUserMacroEnvironmentVariables”(目标“PrepareForBuild”依赖于它):
+       任务“SetEnv”
+         EngineRoot=D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\
+       已完成执行任务“SetEnv”的操作。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“SetUserMacroEnvironmentVariables”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“GetResolvedWinMD”(目标“PrepareForBuild”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“GetResolvedWinMD”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets”中的目标“PlatformPrepareForBuild”(目标“PrepareForBuild”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true')计算为(''!='true' and 'true' != 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(ToolsetTargetsFound)' != 'true' and '$(PlatformToolset)' == 'v100')计算为(''!='true' and 'true' != 'true' and 'v110' == 'v100')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(ToolsetTargetsFound)' != 'true' and '$(PlatformToolset)' == 'v90')计算为(''!='true' and 'true' != 'true' and 'v110' == 'v90')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(ToolsetTargetsFound)' != 'true' and '$(PlatformToolset)' != 'v90' and '$(PlatformToolset)' != 'v100')计算为(''!='true' and 'true' != 'true' and 'v110' != 'v90' and 'v110' != 'v100')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“PlatformPrepareForBuild”的操作。
+       已跳过目标“GetFrameworkPaths”。以前的生成已成功。
+       已跳过目标“GetReferenceAssemblyPaths”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“PrepareForBuild”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true')计算为(''!='true' and 'true' != 'true')。
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“MakeDir”任务。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary')计算为(''!='true' and 'false'=='true' and 'StaticLibrary'!='Application' and 'StaticLibrary'!='DynamicLibrary' and 'StaticLibrary'!='StaticLibrary')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' ))计算为(''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' ))。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90')计算为(''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\'=='' and '' != 'true' and 'v110'=='v90')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true')计算为('C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\'=='' and '' != 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true')计算为('C:\Program Files (x86)\Windows Kits\8.0\'=='' and '' != 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(IntDirTrailingSlashWarning)'=='true')计算为(''=='true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(OutDirTrailingSlashWarning)'=='true')计算为(''=='true')。
+       由于 false 条件，已跳过任务“VCMessage”；('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true')计算为('' != '' and ''!='true')。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“PrepareForBuild”的操作。
+       已跳过目标“_PrepareForReferenceResolution”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“ComputeCrtSDKReference”；('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')的计算结果为('..\..\external\edtaa3func\edtaa3func.cpp;..\..\external\tinyxml2\tinyxml2.cpp;..\..\external\unzip\ioapi.cpp;..\..\external\unzip\unzip.cpp;..\..\external\xxhash\xxhash.c;..\base\atitc.cpp;..\base\CCAffineTransform.cpp;..\base\CCAutoreleasePool.cpp;..\base\CCConsole.cpp;..\base\CCData.cpp;..\base\CCDataVisitor.cpp;..\base\CCGeometry.cpp;..\base\CCNS.cpp;..\base\CCRef.cpp;..\base\CCValue.cpp;..\base\etc1.cpp;..\base\s3tc.cpp;..\deprecated\CCArray.cpp;..\deprecated\CCDeprecated.cpp;..\deprecated\CCDictionary.cpp;..\deprecated\CCNotificationCenter.cpp;..\deprecated\CCSet.cpp;..\deprecated\CCString.cpp;..\math\kazmath\kazmath\aabb.c;..\math\kazmath\kazmath\GL\mat4stack.c;..\math\kazmath\kazmath\GL\matrix.c;..\math\kazmath\kazmath\mat3.c;..\math\kazmath\kazmath\mat4.c;..\math\kazmath\kazmath\neon_matrix_impl.c;..\math\kazmath\kazmath\plane.c;..\math\kazmath\kazmath\quaternion.c;..\math\kazmath\kazmath\ray2.c;..\math\kazmath\kazmath\ray3.c;..\math\kazmath\kazmath\utility.c;..\math\kazmath\kazmath\vec2.c;..\math\kazmath\kazmath\vec3.c;..\math\kazmath\kazmath\vec4.c;..\physics\CCPhysicsBody.cpp;..\physics\CCPhysicsContact.cpp;..\physics\CCPhysicsJoint.cpp;..\physics\CCPhysicsShape.cpp;..\physics\CCPhysicsWorld.cpp;..\physics\chipmunk\CCPhysicsBodyInfo_chipmunk.cpp;..\physics\chipmunk\CCPhysicsContactInfo_chipmunk.cpp;..\physics\chipmunk\CCPhysicsJointInfo_chipmunk.cpp;..\physics\chipmunk\CCPhysicsShapeInfo_chipmunk.cpp;..\physics\chipmunk\CCPhysicsWorldInfo_chipmunk.cpp;base64.cpp;CCAction.cpp;CCActionCamera.cpp;CCActionCatmullRom.cpp;CCActionEase.cpp;CCActionGrid.cpp;CCActionGrid3D.cpp;CCActionInstant.cpp;CCActionInterval.cpp;CCActionManager.cpp;CCActionPageTurn3D.cpp;CCActionProgressTimer.cpp;CCActionTiledGrid.cpp;CCActionTween.cpp;CCAnimation.cpp;CCAnimationCache.cpp;CCAtlasNode.cpp;ccCArray.cpp;CCClippingNode.cpp;CCComponent.cpp;CCComponentContainer.cpp;CCConfiguration.cpp;CCDirector.cpp;CCDrawingPrimitives.cpp;CCDrawNode.cpp;CCEvent.cpp;CCEventAcceleration.cpp;CCEventCustom.cpp;CCEventDispatcher.cpp;CCEventKeyboard.cpp;CCEventListener.cpp;CCEventListenerAcceleration.cpp;CCEventListenerCustom.cpp;CCEventListenerKeyboard.cpp;CCEventListenerMouse.cpp;CCEventListenerTouch.cpp;CCEventMouse.cpp;CCEventTouch.cpp;CCFont.cpp;CCFontAtlas.cpp;CCFontAtlasCache.cpp;CCFontCharMap.cpp;CCFontFNT.cpp;CCFontFreeType.cpp;ccFPSImages.c;CCGLProgram.cpp;ccGLStateCache.cpp;CCGrabber.cpp;CCGrid.cpp;CCNodeGrid.cpp;CCIMEDispatcher.cpp;CCLabel.cpp;CCLabelAtlas.cpp;CCLabelBMFont.cpp;CCLabelTextFormatter.cpp;CCLabelTTF.cpp;CCLayer.cpp;CCMenu.cpp;CCMenuItem.cpp;CCMotionStreak.cpp;CCNode.cpp;CCParallaxNode.cpp;CCParticleBatchNode.cpp;CCParticleExamples.cpp;CCParticleSystem.cpp;CCParticleSystemQuad.cpp;CCProfiling.cpp;CCProgressTimer.cpp;CCRenderTexture.cpp;CCScene.cpp;CCScheduler.cpp;CCScriptSupport.cpp;CCShaderCache.cpp;ccShaders.cpp;CCSprite.cpp;CCSpriteBatchNode.cpp;CCSpriteFrame.cpp;CCSpriteFrameCache.cpp;CCTextFieldTTF.cpp;CCTexture2D.cpp;CCTextureAtlas.cpp;CCTextureCache.cpp;CCTileMapAtlas.cpp;CCTMXLayer.cpp;CCTMXObjectGroup.cpp;CCTMXTiledMap.cpp;CCTMXXMLParser.cpp;CCTouch.cpp;CCTransition.cpp;CCTransitionPageTurn.cpp;CCTransitionProgress.cpp;ccTypes.cpp;CCTweenFunction.cpp;CCUserDefault.cpp;ccUTF8.cpp;ccUtils.cpp;CCVertex.cpp;cocos2d.cpp;platform\CCGLViewProtocol.cpp;platform\CCFileUtils.cpp;platform\CCImage.cpp;platform\CCSAXParser.cpp;platform\CCThread.cpp;platform\desktop\CCGLView.cpp;platform\win32\CCApplication.cpp;platform\win32\CCCommon.cpp;platform\win32\CCDevice.cpp;platform\win32\CCFileUtilsWin32.cpp;platform\win32\CCStdC.cpp;renderer\CCBatchCommand.cpp;renderer\CCCustomCommand.cpp;renderer\CCFrustum.cpp;renderer\CCGroupCommand.cpp;renderer\CCMaterialManager.cpp;renderer\CCQuadCommand.cpp;renderer\CCRenderCommand.cpp;renderer\CCRenderer.cpp;renderer\CCRenderMaterial.cpp;TGAlib.cpp;TransformUtils.cpp;ZipUtils.cpp'!='' and 'false'=='true' and '' != 'false')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“GetInstalledSDKLocations”(目标“ResolveSDKReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetInstalledSDKLocations”；('@(SDKReference)' != '')计算为('' != '')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“GetInstalledSDKLocations”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ResolveSDKReferences”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“ResolveSDKReference”；('@(SDKReference)'!='')计算为(''!='')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ResolveSDKReferences”的操作。
+       已跳过目标“ResolveSDKReferences”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ExpandSDKReferences”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetSDKReferenceFiles”；('@(ResolvedSDKReference)'!='')计算为(''!='')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ExpandSDKReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“FakesGenerateBeforeBuild”；(@(Fakes) != '' AND $(BuildingProject))的计算结果为( != '' AND true)。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ResolveAssemblyReferences”(目标“ResolveReferences”依赖于它):
+       由于 false 条件，已跳过任务“ResolveAssemblyReference”；('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '')计算为(''!='' or ''!='' or '' != '')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ResolveAssemblyReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“ResolveComReferences”；('@(COMReference)'!='' or '@(COMFileReference)'!='')的计算结果为(''!='' or ''!='')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“AfterResolveReferences”(目标“ResolveReferences”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“AfterResolveReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“ImplicitlyExpandDesignTimeFacades”；('$(ImplicitlyExpandDesignTimeFacades)' == 'true')的计算结果为('' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“ResolveTestReferences”；('@(Shadow)'!='')的计算结果为(''!='')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ResolveReferences”(目标“Build”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ResolveReferences”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“InitializeBuildStatus”(目标“Build”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“ReadLinesFromFile”任务。
+       任务“ReadLinesFromFile”
+       已完成执行任务“ReadLinesFromFile”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“WriteLinesToFile”任务。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Touch”任务。
+       任务“Touch”
+         正在创建“Debug.win32\libcocos2d.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       已完成执行任务“Touch”的操作。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“InitializeBuildStatus”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildGenerateSourcesTraverse”(目标“BuildGenerateSources”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')计算为('' == 'true' and '' != '' and '' != '' and '' == 'true')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“BuildGenerateSourcesTraverse”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets”中的目标“BeforeBuildGenerateSources”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“BeforeBuildGenerateSources”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets”中的目标“PreBuildEvent”(目标“_BuildGenerateSourcesAction”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '')计算为('' != '' and '' != '')。
+       由于 false 条件，已跳过任务“Exec”；('%(PreBuildEvent.Command)' != '')计算为('' != '')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“PreBuildEvent”的操作。
+       由于条件的计算结果为 false，已跳过目标“CustomBuild”；('@(CustomBuild)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“FxCompile”；('@(FxCompile)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“Xsd”；('@(Xsd)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_Xsd”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_Xsd”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“MakeDirsForMidl”(目标“_Midl”依赖于它):
+       任务“Makedir”
+       已完成执行任务“Makedir”的操作。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“MakeDirsForMidl”的操作。
+       由于条件的计算结果为 false，已跳过目标“Midl”；('@(Midl)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“CustomBuild”；('@(CustomBuild)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“FxCompile”；('@(FxCompile)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeMIDLGeneratedCompileInputs”(目标“_Midl”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ComputeMIDLGeneratedCompileInputs”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“AfterMidl”(目标“_Midl”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“AfterMidl”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_Midl”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_Midl”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets”中的目标“AfterBuildGenerateSources”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“AfterBuildGenerateSources”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“AfterBuildGenerateSourcesEvent”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“AfterBuildGenerateSourcesEvent”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_BuildGenerateSourcesAction”(目标“BuildGenerateSources”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_BuildGenerateSourcesAction”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildGenerateSources”(目标“Build”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“BuildGenerateSources”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildCompileTraverse”(目标“BuildCompile”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')计算为('' == 'true' and '' != '' and '' != ''  and '' == 'true')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“BuildCompileTraverse”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“BeforeClCompile”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“BeforeClCompile”的操作。
+       已跳过目标“ComputeMIDLGeneratedCompileInputs”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeCLInputPDBName”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ComputeCLInputPDBName”的操作。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeReferenceCLInput”(目标“_ClCompile”依赖于它):
+       由于 false 条件，已跳过任务“WriteLinesToFile”；(('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true')计算为((''!='') and '' != 'true')。
+       由于 false 条件，已跳过任务“Message”；('$(_REFERENCE_DEBUG)'=='true')计算为(''=='true')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ComputeReferenceCLInput”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“MakeDirsForCl”(目标“_ClCompile”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“MakeDirsForCl”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“SetBuildDefaultEnvironmentVariables”。以前的生成已成功。
+       已跳过目标“SetUserMacroEnvironmentVariables”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_SelectedFiles”(目标“SelectClCompile”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_SelectedFiles”的操作。
+       已跳过目标“ComputeMIDLGeneratedCompileInputs”。以前的生成已成功。
+       已跳过目标“ComputeCLInputPDBName”。以前的生成已成功。
+       已跳过目标“ComputeReferenceCLInput”。以前的生成已成功。
+       已跳过目标“_SelectedFiles”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“SelectCustomBuild”(目标“SelectClCompile”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“SelectCustomBuild”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“SelectClCompile”(目标“ClCompile”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“SelectClCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“GenerateTargetFrameworkMonikerAttribute”；('$(GenerateTargetFrameworkAttribute)' == 'true')的计算结果为('false' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“ManagedIncrementalBuildPreProcessDependencyGraph”；('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')的计算结果为('..\..\external\edtaa3func\edtaa3func.cpp;..\..\external\tinyxml2\tinyxml2.cpp;..\..\external\unzip\ioapi.cpp;..\..\external\unzip\unzip.cpp;..\..\external\xxhash\xxhash.c;..\base\atitc.cpp;..\base\CCAffineTransform.cpp;..\base\CCAutoreleasePool.cpp;..\base\CCConsole.cpp;..\base\CCData.cpp;..\base\CCDataVisitor.cpp;..\base\CCGeometry.cpp;..\base\CCNS.cpp;..\base\CCRef.cpp;..\base\CCValue.cpp;..\base\etc1.cpp;..\base\s3tc.cpp;..\deprecated\CCArray.cpp;..\deprecated\CCDeprecated.cpp;..\deprecated\CCDictionary.cpp;..\deprecated\CCNotificationCenter.cpp;..\deprecated\CCSet.cpp;..\deprecated\CCString.cpp;..\math\kazmath\kazmath\aabb.c;..\math\kazmath\kazmath\GL\mat4stack.c;..\math\kazmath\kazmath\GL\matrix.c;..\math\kazmath\kazmath\mat3.c;..\math\kazmath\kazmath\mat4.c;..\math\kazmath\kazmath\neon_matrix_impl.c;..\math\kazmath\kazmath\plane.c;..\math\kazmath\kazmath\quaternion.c;..\math\kazmath\kazmath\ray2.c;..\math\kazmath\kazmath\ray3.c;..\math\kazmath\kazmath\utility.c;..\math\kazmath\kazmath\vec2.c;..\math\kazmath\kazmath\vec3.c;..\math\kazmath\kazmath\vec4.c;..\physics\CCPhysicsBody.cpp;..\physics\CCPhysicsContact.cpp;..\physics\CCPhysicsJoint.cpp;..\physics\CCPhysicsShape.cpp;..\physics\CCPhysicsWorld.cpp;..\physics\chipmunk\CCPhysicsBodyInfo_chipmunk.cpp;..\physics\chipmunk\CCPhysicsContactInfo_chipmunk.cpp;..\physics\chipmunk\CCPhysicsJointInfo_chipmunk.cpp;..\physics\chipmunk\CCPhysicsShapeInfo_chipmunk.cpp;..\physics\chipmunk\CCPhysicsWorldInfo_chipmunk.cpp;base64.cpp;CCAction.cpp;CCActionCamera.cpp;CCActionCatmullRom.cpp;CCActionEase.cpp;CCActionGrid.cpp;CCActionGrid3D.cpp;CCActionInstant.cpp;CCActionInterval.cpp;CCActionManager.cpp;CCActionPageTurn3D.cpp;CCActionProgressTimer.cpp;CCActionTiledGrid.cpp;CCActionTween.cpp;CCAnimation.cpp;CCAnimationCache.cpp;CCAtlasNode.cpp;ccCArray.cpp;CCClippingNode.cpp;CCComponent.cpp;CCComponentContainer.cpp;CCConfiguration.cpp;CCDirector.cpp;CCDrawingPrimitives.cpp;CCDrawNode.cpp;CCEvent.cpp;CCEventAcceleration.cpp;CCEventCustom.cpp;CCEventDispatcher.cpp;CCEventKeyboard.cpp;CCEventListener.cpp;CCEventListenerAcceleration.cpp;CCEventListenerCustom.cpp;CCEventListenerKeyboard.cpp;CCEventListenerMouse.cpp;CCEventListenerTouch.cpp;CCEventMouse.cpp;CCEventTouch.cpp;CCFont.cpp;CCFontAtlas.cpp;CCFontAtlasCache.cpp;CCFontCharMap.cpp;CCFontFNT.cpp;CCFontFreeType.cpp;ccFPSImages.c;CCGLProgram.cpp;ccGLStateCache.cpp;CCGrabber.cpp;CCGrid.cpp;CCNodeGrid.cpp;CCIMEDispatcher.cpp;CCLabel.cpp;CCLabelAtlas.cpp;CCLabelBMFont.cpp;CCLabelTextFormatter.cpp;CCLabelTTF.cpp;CCLayer.cpp;CCMenu.cpp;CCMenuItem.cpp;CCMotionStreak.cpp;CCNode.cpp;CCParallaxNode.cpp;CCParticleBatchNode.cpp;CCParticleExamples.cpp;CCParticleSystem.cpp;CCParticleSystemQuad.cpp;CCProfiling.cpp;CCProgressTimer.cpp;CCRenderTexture.cpp;CCScene.cpp;CCScheduler.cpp;CCScriptSupport.cpp;CCShaderCache.cpp;ccShaders.cpp;CCSprite.cpp;CCSpriteBatchNode.cpp;CCSpriteFrame.cpp;CCSpriteFrameCache.cpp;CCTextFieldTTF.cpp;CCTexture2D.cpp;CCTextureAtlas.cpp;CCTextureCache.cpp;CCTileMapAtlas.cpp;CCTMXLayer.cpp;CCTMXObjectGroup.cpp;CCTMXTiledMap.cpp;CCTMXXMLParser.cpp;CCTouch.cpp;CCTransition.cpp;CCTransitionPageTurn.cpp;CCTransitionProgress.cpp;ccTypes.cpp;CCTweenFunction.cpp;CCUserDefault.cpp;ccUTF8.cpp;ccUtils.cpp;CCVertex.cpp;cocos2d.cpp;platform\CCGLViewProtocol.cpp;platform\CCFileUtils.cpp;platform\CCImage.cpp;platform\CCSAXParser.cpp;platform\CCThread.cpp;platform\desktop\CCGLView.cpp;platform\win32\CCApplication.cpp;platform\win32\CCCommon.cpp;platform\win32\CCDevice.cpp;platform\win32\CCFileUtilsWin32.cpp;platform\win32\CCStdC.cpp;renderer\CCBatchCommand.cpp;renderer\CCCustomCommand.cpp;renderer\CCFrustum.cpp;renderer\CCGroupCommand.cpp;renderer\CCMaterialManager.cpp;renderer\CCQuadCommand.cpp;renderer\CCRenderCommand.cpp;renderer\CCRenderer.cpp;renderer\CCRenderMaterial.cpp;TGAlib.cpp;TransformUtils.cpp;ZipUtils.cpp' != '' and 'false' == 'True')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets”中的目标“ClCompile”(目标“_ClCompile”依赖于它):
+       由于 false 条件，已跳过任务“Delete”；('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName)))计算为('OldStyle' != '' and 'OldStyle' != 'OldStyle' and 'Debug.win32\vc110.pdb' != '' and !Exists(Debug.win32\vc110.pdb))。
+       由于 false 条件，已跳过任务“CL”；('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '')计算为('' == 'Create' and ''!='true' and '' == '')。
+       正在使用程序集“Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“CL”任务。
+       任务“CL”
+         Forcing rebuild of all source files due to missing command TLog "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\Debug.win32\cl.command.1.tlog".
+         传递给工具的环境变量为:
+           VS_UNICODE_OUTPUT=1092
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include" /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\sqlite3\include /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\unzip /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\edtaa3func /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\tinyxml2 /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\png\include\win32 /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\jpeg\include\win32 /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\tiff\include\win32 /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\webp\include\win32 /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\freetype2\include\win32 /I"D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\win32-specific\icon\include" /I"D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\win32-specific\zlib\include" /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\xxhash /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\2d /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\2d\renderer /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\ui /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\base /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\physics /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\math\kazmath /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\2d\platform\win32 /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\2d\platform\desktop /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /Z7 /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _LIB /D COCOS2DXWIN32_EXPORTS /D GL_GLEXT_PROTOTYPES /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\..\external\edtaa3func\edtaa3func.cpp ..\..\external\tinyxml2\tinyxml2.cpp ..\..\external\unzip\ioapi.cpp ..\..\external\unzip\unzip.cpp ..\..\external\xxhash\xxhash.c ..\base\atitc.cpp ..\base\CCAffineTransform.cpp ..\base\CCAutoreleasePool.cpp ..\base\CCConsole.cpp ..\base\CCData.cpp ..\base\CCDataVisitor.cpp ..\base\CCGeometry.cpp ..\base\CCNS.cpp ..\base\CCRef.cpp ..\base\CCValue.cpp ..\base\etc1.cpp ..\base\s3tc.cpp ..\deprecated\CCArray.cpp ..\deprecated\CCDeprecated.cpp ..\deprecated\CCDictionary.cpp ..\deprecated\CCNotificationCenter.cpp ..\deprecated\CCSet.cpp ..\deprecated\CCString.cpp ..\math\kazmath\kazmath\aabb.c ..\math\kazmath\kazmath\GL\mat4stack.c ..\math\kazmath\kazmath\GL\matrix.c ..\math\kazmath\kazmath\mat3.c ..\math\kazmath\kazmath\mat4.c ..\math\kazmath\kazmath\neon_matrix_impl.c ..\math\kazmath\kazmath\plane.c ..\math\kazmath\kazmath\quaternion.c ..\math\kazmath\kazmath\ray2.c ..\math\kazmath\kazmath\ray3.c ..\math\kazmath\kazmath\utility.c ..\math\kazmath\kazmath\vec2.c ..\math\kazmath\kazmath\vec3.c ..\math\kazmath\kazmath\vec4.c ..\physics\CCPhysicsBody.cpp ..\physics\CCPhysicsContact.cpp ..\physics\CCPhysicsJoint.cpp ..\physics\CCPhysicsShape.cpp ..\physics\CCPhysicsWorld.cpp ..\physics\chipmunk\CCPhysicsBodyInfo_chipmunk.cpp ..\physics\chipmunk\CCPhysicsContactInfo_chipmunk.cpp ..\physics\chipmunk\CCPhysicsJointInfo_chipmunk.cpp ..\physics\chipmunk\CCPhysicsShapeInfo_chipmunk.cpp ..\physics\chipmunk\CCPhysicsWorldInfo_chipmunk.cpp base64.cpp CCAction.cpp CCActionCamera.cpp CCActionCatmullRom.cpp CCActionEase.cpp CCActionGrid.cpp CCActionGrid3D.cpp CCActionInstant.cpp CCActionInterval.cpp CCActionManager.cpp CCActionPageTurn3D.cpp CCActionProgressTimer.cpp CCActionTiledGrid.cpp CCActionTween.cpp CCAnimation.cpp CCAnimationCache.cpp CCAtlasNode.cpp ccCArray.cpp CCClippingNode.cpp CCComponent.cpp CCComponentContainer.cpp CCConfiguration.cpp CCDirector.cpp CCDrawingPrimitives.cpp CCDrawNode.cpp CCEvent.cpp CCEventAcceleration.cpp CCEventCustom.cpp CCEventDispatcher.cpp CCEventKeyboard.cpp CCEventListener.cpp CCEventListenerAcceleration.cpp CCEventListenerCustom.cpp CCEventListenerKeyboard.cpp CCEventListenerMouse.cpp CCEventListenerTouch.cpp CCEventMouse.cpp CCEventTouch.cpp CCFont.cpp CCFontAtlas.cpp CCFontAtlasCache.cpp CCFontCharMap.cpp CCFontFNT.cpp CCFontFreeType.cpp ccFPSImages.c CCGLProgram.cpp ccGLStateCache.cpp CCGrabber.cpp CCGrid.cpp CCNodeGrid.cpp CCIMEDispatcher.cpp CCLabel.cpp CCLabelAtlas.cpp CCLabelBMFont.cpp CCLabelTextFormatter.cpp CCLabelTTF.cpp CCLayer.cpp CCMenu.cpp CCMenuItem.cpp CCMotionStreak.cpp CCNode.cpp CCParallaxNode.cpp CCParticleBatchNode.cpp CCParticleExamples.cpp CCParticleSystem.cpp CCParticleSystemQuad.cpp CCProfiling.cpp CCProgressTimer.cpp CCRenderTexture.cpp CCScene.cpp CCScheduler.cpp CCScriptSupport.cpp CCShaderCache.cpp ccShaders.cpp CCSprite.cpp CCSpriteBatchNode.cpp CCSpriteFrame.cpp CCSpriteFrameCache.cpp CCTextFieldTTF.cpp CCTexture2D.cpp CCTextureAtlas.cpp CCTextureCache.cpp CCTileMapAtlas.cpp CCTMXLayer.cpp CCTMXObjectGroup.cpp CCTMXTiledMap.cpp CCTMXXMLParser.cpp CCTouch.cpp CCTransition.cpp CCTransitionPageTurn.cpp CCTransitionProgress.cpp ccTypes.cpp CCTweenFunction.cpp CCUserDefault.cpp ccUTF8.cpp ccUtils.cpp CCVertex.cpp cocos2d.cpp platform\CCGLViewProtocol.cpp platform\CCFileUtils.cpp platform\CCImage.cpp platform\CCSAXParser.cpp platform\CCThread.cpp platform\desktop\CCGLView.cpp platform\win32\CCApplication.cpp platform\win32\CCCommon.cpp platform\win32\CCDevice.cpp platform\win32\CCFileUtilsWin32.cpp platform\win32\CCStdC.cpp renderer\CCBatchCommand.cpp renderer\CCCustomCommand.cpp renderer\CCFrustum.cpp renderer\CCGroupCommand.cpp renderer\CCMaterialManager.cpp renderer\CCQuadCommand.cpp renderer\CCRenderCommand.cpp renderer\CCRenderer.cpp renderer\CCRenderMaterial.cpp TGAlib.cpp TransformUtils.cpp ZipUtils.cpp
+         Tracking command:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\Debug.win32 /r "D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\BASE64.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCACTION.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCACTIONCAMERA.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCACTIONCATMULLROM.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCACTIONEASE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCACTIONGRID.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCACTIONGRID3D.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCACTIONINSTANT.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCACTIONINTERVAL.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCACTIONMANAGER.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCACTIONPAGETURN3D.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCACTIONPROGRESSTIMER.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCACTIONTILEDGRID.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCACTIONTWEEN.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCANIMATION.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCANIMATIONCACHE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCATLASNODE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCCARRAY.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCCLIPPINGNODE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCCOMPONENT.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCCOMPONENTCONTAINER.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCCONFIGURATION.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCDIRECTOR.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCDRAWINGPRIMITIVES.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCDRAWNODE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCEVENT.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCEVENTACCELERATION.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCEVENTCUSTOM.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCEVENTDISPATCHER.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCEVENTKEYBOARD.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCEVENTLISTENER.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCEVENTLISTENERACCELERATION.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCEVENTLISTENERCUSTOM.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCEVENTLISTENERKEYBOARD.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCEVENTLISTENERMOUSE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCEVENTLISTENERTOUCH.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCEVENTMOUSE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCEVENTTOUCH.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCFONT.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCFONTATLAS.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCFONTATLASCACHE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCFONTCHARMAP.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCFONTFNT.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCFONTFREETYPE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCFPSIMAGES.C|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCGLPROGRAM.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCGLSTATECACHE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCGRABBER.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCGRID.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCIMEDISPATCHER.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCLABEL.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCLABELATLAS.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCLABELBMFONT.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCLABELTEXTFORMATTER.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCLABELTTF.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCLAYER.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCMENU.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCMENUITEM.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCMOTIONSTREAK.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCNODE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCNODEGRID.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCPARALLAXNODE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCPARTICLEBATCHNODE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCPARTICLEEXAMPLES.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCPARTICLESYSTEM.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCPARTICLESYSTEMQUAD.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCPROFILING.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCPROGRESSTIMER.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCRENDERTEXTURE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCSCENE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCSCHEDULER.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCSCRIPTSUPPORT.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCSHADERCACHE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCSHADERS.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCSPRITE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCSPRITEBATCHNODE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCSPRITEFRAME.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCSPRITEFRAMECACHE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCTEXTFIELDTTF.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCTEXTURE2D.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCTEXTUREATLAS.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCTEXTURECACHE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCTILEMAPATLAS.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCTMXLAYER.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCTMXOBJECTGROUP.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCTMXTILEDMAP.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCTMXXMLPARSER.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCTOUCH.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCTRANSITION.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCTRANSITIONPAGETURN.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCTRANSITIONPROGRESS.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCTWEENFUNCTION.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCTYPES.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCUSERDEFAULT.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCUTF8.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCUTILS.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\CCVERTEX.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\COCOS2D.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\PLATFORM\CCFILEUTILS.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\PLATFORM\CCGLVIEWPROTOCOL.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\PLATFORM\CCIMAGE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\PLATFORM\CCSAXPARSER.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\PLATFORM\CCTHREAD.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\PLATFORM\DESKTOP\CCGLVIEW.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\PLATFORM\WIN32\CCAPPLICATION.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\PLATFORM\WIN32\CCCOMMON.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\PLATFORM\WIN32\CCDEVICE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\PLATFORM\WIN32\CCFILEUTILSWIN32.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\PLATFORM\WIN32\CCSTDC.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\RENDERER\CCBATCHCOMMAND.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\RENDERER\CCCUSTOMCOMMAND.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\RENDERER\CCFRUSTUM.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\RENDERER\CCGROUPCOMMAND.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\RENDERER\CCMATERIALMANAGER.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\RENDERER\CCQUADCOMMAND.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\RENDERER\CCRENDERCOMMAND.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\RENDERER\CCRENDERER.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\RENDERER\CCRENDERMATERIAL.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\TGALIB.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\TRANSFORMUTILS.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\ZIPUTILS.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\BASE\ATITC.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\BASE\CCAFFINETRANSFORM.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\BASE\CCAUTORELEASEPOOL.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\BASE\CCCONSOLE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\BASE\CCDATA.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\BASE\CCDATAVISITOR.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\BASE\CCGEOMETRY.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\BASE\CCNS.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\BASE\CCREF.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\BASE\CCVALUE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\BASE\ETC1.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\BASE\S3TC.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\DEPRECATED\CCARRAY.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\DEPRECATED\CCDEPRECATED.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\DEPRECATED\CCDICTIONARY.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\DEPRECATED\CCNOTIFICATIONCENTER.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\DEPRECATED\CCSET.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\DEPRECATED\CCSTRING.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\MATH\KAZMATH\KAZMATH\AABB.C|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\MATH\KAZMATH\KAZMATH\GL\MAT4STACK.C|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\MATH\KAZMATH\KAZMATH\GL\MATRIX.C|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\MATH\KAZMATH\KAZMATH\MAT3.C|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\MATH\KAZMATH\KAZMATH\MAT4.C|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\MATH\KAZMATH\KAZMATH\NEON_MATRIX_IMPL.C|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\MATH\KAZMATH\KAZMATH\PLANE.C|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\MATH\KAZMATH\KAZMATH\QUATERNION.C|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\MATH\KAZMATH\KAZMATH\RAY2.C|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\MATH\KAZMATH\KAZMATH\RAY3.C|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\MATH\KAZMATH\KAZMATH\UTILITY.C|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\MATH\KAZMATH\KAZMATH\VEC2.C|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\MATH\KAZMATH\KAZMATH\VEC3.C|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\MATH\KAZMATH\KAZMATH\VEC4.C|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\PHYSICS\CCPHYSICSBODY.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\PHYSICS\CCPHYSICSCONTACT.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\PHYSICS\CCPHYSICSJOINT.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\PHYSICS\CCPHYSICSSHAPE.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\PHYSICS\CCPHYSICSWORLD.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\PHYSICS\CHIPMUNK\CCPHYSICSBODYINFO_CHIPMUNK.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\PHYSICS\CHIPMUNK\CCPHYSICSCONTACTINFO_CHIPMUNK.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\PHYSICS\CHIPMUNK\CCPHYSICSJOINTINFO_CHIPMUNK.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\PHYSICS\CHIPMUNK\CCPHYSICSSHAPEINFO_CHIPMUNK.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\PHYSICS\CHIPMUNK\CCPHYSICSWORLDINFO_CHIPMUNK.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\EXTERNAL\EDTAA3FUNC\EDTAA3FUNC.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\EXTERNAL\TINYXML2\TINYXML2.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\EXTERNAL\UNZIP\IOAPI.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\EXTERNAL\UNZIP\UNZIP.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\EXTERNAL\XXHASH\XXHASH.C" /b MSBuildConsole_CancelEvent574dd38140fb4f0ab4d0e2651cb42998  /c "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe"  /c /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include" /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\sqlite3\include /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\unzip /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\edtaa3func /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\tinyxml2 /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\png\include\win32 /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\jpeg\include\win32 /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\tiff\include\win32 /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\webp\include\win32 /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\freetype2\include\win32 /I"D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\win32-specific\icon\include" /I"D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\win32-specific\zlib\include" /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\xxhash /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\2d /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\2d\renderer /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\ui /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\base /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\physics /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\math\kazmath /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\2d\platform\win32 /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\2d\platform\desktop /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /Z7 /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _LIB /D COCOS2DXWIN32_EXPORTS /D GL_GLEXT_PROTOTYPES /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\..\external\edtaa3func\edtaa3func.cpp ..\..\external\tinyxml2\tinyxml2.cpp ..\..\external\unzip\ioapi.cpp ..\..\external\unzip\unzip.cpp ..\..\external\xxhash\xxhash.c ..\base\atitc.cpp ..\base\CCAffineTransform.cpp ..\base\CCAutoreleasePool.cpp ..\base\CCConsole.cpp ..\base\CCData.cpp ..\base\CCDataVisitor.cpp ..\base\CCGeometry.cpp ..\base\CCNS.cpp ..\base\CCRef.cpp ..\base\CCValue.cpp ..\base\etc1.cpp ..\base\s3tc.cpp ..\deprecated\CCArray.cpp ..\deprecated\CCDeprecated.cpp ..\deprecated\CCDictionary.cpp ..\deprecated\CCNotificationCenter.cpp ..\deprecated\CCSet.cpp ..\deprecated\CCString.cpp ..\math\kazmath\kazmath\aabb.c ..\math\kazmath\kazmath\GL\mat4stack.c ..\math\kazmath\kazmath\GL\matrix.c ..\math\kazmath\kazmath\mat3.c ..\math\kazmath\kazmath\mat4.c ..\math\kazmath\kazmath\neon_matrix_impl.c ..\math\kazmath\kazmath\plane.c ..\math\kazmath\kazmath\quaternion.c ..\math\kazmath\kazmath\ray2.c ..\math\kazmath\kazmath\ray3.c ..\math\kazmath\kazmath\utility.c ..\math\kazmath\kazmath\vec2.c ..\math\kazmath\kazmath\vec3.c ..\math\kazmath\kazmath\vec4.c ..\physics\CCPhysicsBody.cpp ..\physics\CCPhysicsContact.cpp ..\physics\CCPhysicsJoint.cpp ..\physics\CCPhysicsShape.cpp ..\physics\CCPhysicsWorld.cpp ..\physics\chipmunk\CCPhysicsBodyInfo_chipmunk.cpp ..\physics\chipmunk\CCPhysicsContactInfo_chipmunk.cpp ..\physics\chipmunk\CCPhysicsJointInfo_chipmunk.cpp ..\physics\chipmunk\CCPhysicsShapeInfo_chipmunk.cpp ..\physics\chipmunk\CCPhysicsWorldInfo_chipmunk.cpp base64.cpp CCAction.cpp CCActionCamera.cpp CCActionCatmullRom.cpp CCActionEase.cpp CCActionGrid.cpp CCActionGrid3D.cpp CCActionInstant.cpp CCActionInterval.cpp CCActionManager.cpp CCActionPageTurn3D.cpp CCActionProgressTimer.cpp CCActionTiledGrid.cpp CCActionTween.cpp CCAnimation.cpp CCAnimationCache.cpp CCAtlasNode.cpp ccCArray.cpp CCClippingNode.cpp CCComponent.cpp CCComponentContainer.cpp CCConfiguration.cpp CCDirector.cpp CCDrawingPrimitives.cpp CCDrawNode.cpp CCEvent.cpp CCEventAcceleration.cpp CCEventCustom.cpp CCEventDispatcher.cpp CCEventKeyboard.cpp CCEventListener.cpp CCEventListenerAcceleration.cpp CCEventListenerCustom.cpp CCEventListenerKeyboard.cpp CCEventListenerMouse.cpp CCEventListenerTouch.cpp CCEventMouse.cpp CCEventTouch.cpp CCFont.cpp CCFontAtlas.cpp CCFontAtlasCache.cpp CCFontCharMap.cpp CCFontFNT.cpp CCFontFreeType.cpp ccFPSImages.c CCGLProgram.cpp ccGLStateCache.cpp CCGrabber.cpp CCGrid.cpp CCNodeGrid.cpp CCIMEDispatcher.cpp CCLabel.cpp CCLabelAtlas.cpp CCLabelBMFont.cpp CCLabelTextFormatter.cpp CCLabelTTF.cpp CCLayer.cpp CCMenu.cpp CCMenuItem.cpp CCMotionStreak.cpp CCNode.cpp CCParallaxNode.cpp CCParticleBatchNode.cpp CCParticleExamples.cpp CCParticleSystem.cpp CCParticleSystemQuad.cpp CCProfiling.cpp CCProgressTimer.cpp CCRenderTexture.cpp CCScene.cpp CCScheduler.cpp CCScriptSupport.cpp CCShaderCache.cpp ccShaders.cpp CCSprite.cpp CCSpriteBatchNode.cpp CCSpriteFrame.cpp CCSpriteFrameCache.cpp CCTextFieldTTF.cpp CCTexture2D.cpp CCTextureAtlas.cpp CCTextureCache.cpp CCTileMapAtlas.cpp CCTMXLayer.cpp CCTMXObjectGroup.cpp CCTMXTiledMap.cpp CCTMXXMLParser.cpp CCTouch.cpp CCTransition.cpp CCTransitionPageTurn.cpp CCTransitionProgress.cpp ccTypes.cpp CCTweenFunction.cpp CCUserDefault.cpp ccUTF8.cpp ccUtils.cpp CCVertex.cpp cocos2d.cpp platform\CCGLViewProtocol.cpp platform\CCFileUtils.cpp platform\CCImage.cpp platform\CCSAXParser.cpp platform\CCThread.cpp platform\desktop\CCGLView.cpp platform\win32\CCApplication.cpp platform\win32\CCCommon.cpp platform\win32\CCDevice.cpp platform\win32\CCFileUtilsWin32.cpp platform\win32\CCStdC.cpp renderer\CCBatchCommand.cpp renderer\CCCustomCommand.cpp renderer\CCFrustum.cpp renderer\CCGroupCommand.cpp renderer\CCMaterialManager.cpp renderer\CCQuadCommand.cpp renderer\CCRenderCommand.cpp renderer\CCRenderer.cpp renderer\CCRenderMaterial.cpp TGAlib.cpp TransformUtils.cpp ZipUtils.cpp
+         edtaa3func.cpp
+         tinyxml2.cpp
+         ioapi.cpp
+         unzip.cpp
+         xxhash.c
+         atitc.cpp
+     1>..\..\external\xxhash\xxhash.c(312): warning C4804: “/”: 在操作中使用类型“bool”不安全
+         CCAffineTransform.cpp
+         CCAutoreleasePool.cpp
+         CCConsole.cpp
+         CCData.cpp
+         CCDataVisitor.cpp
+         CCGeometry.cpp
+         CCNS.cpp
+         CCRef.cpp
+         CCValue.cpp
+         etc1.cpp
+         s3tc.cpp
+         CCArray.cpp
+         CCDeprecated.cpp
+         CCDictionary.cpp
+         CCNotificationCenter.cpp
+         CCSet.cpp
+         CCString.cpp
+         aabb.c
+         mat4stack.c
+         matrix.c
+         mat3.c
+         mat4.c
+         neon_matrix_impl.c
+         plane.c
+     1>..\math\kazmath\kazmath\plane.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         quaternion.c
+         ray2.c
+         ray3.c
+         utility.c
+         vec2.c
+         vec3.c
+         vec4.c
+         CCPhysicsBody.cpp
+         CCPhysicsContact.cpp
+         CCPhysicsJoint.cpp
+         CCPhysicsShape.cpp
+         CCPhysicsWorld.cpp
+         CCPhysicsBodyInfo_chipmunk.cpp
+         CCPhysicsContactInfo_chipmunk.cpp
+         CCPhysicsJointInfo_chipmunk.cpp
+         CCPhysicsShapeInfo_chipmunk.cpp
+         CCPhysicsWorldInfo_chipmunk.cpp
+         base64.cpp
+         CCAction.cpp
+         CCActionCamera.cpp
+         CCActionCatmullRom.cpp
+         CCActionEase.cpp
+         CCActionGrid.cpp
+         CCActionGrid3D.cpp
+         CCActionInstant.cpp
+         CCActionInterval.cpp
+         CCActionManager.cpp
+         CCActionPageTurn3D.cpp
+         CCActionProgressTimer.cpp
+         CCActionTiledGrid.cpp
+         CCActionTween.cpp
+         CCAnimation.cpp
+         CCAnimationCache.cpp
+         CCAtlasNode.cpp
+         ccCArray.cpp
+         CCClippingNode.cpp
+         CCComponent.cpp
+         CCComponentContainer.cpp
+         CCConfiguration.cpp
+         CCDirector.cpp
+         CCDrawingPrimitives.cpp
+         CCDrawNode.cpp
+         CCEvent.cpp
+         CCEventAcceleration.cpp
+         CCEventCustom.cpp
+         CCEventDispatcher.cpp
+         CCEventKeyboard.cpp
+         CCEventListener.cpp
+         CCEventListenerAcceleration.cpp
+         CCEventListenerCustom.cpp
+         CCEventListenerKeyboard.cpp
+         CCEventListenerMouse.cpp
+         CCEventListenerTouch.cpp
+         CCEventMouse.cpp
+         CCEventTouch.cpp
+         CCFont.cpp
+         CCFontAtlas.cpp
+         CCFontAtlasCache.cpp
+         CCFontCharMap.cpp
+         CCFontFNT.cpp
+         CCFontFreeType.cpp
+         ccFPSImages.c
+         CCGLProgram.cpp
+         ccGLStateCache.cpp
+         CCGrabber.cpp
+         CCGrid.cpp
+         CCNodeGrid.cpp
+         CCIMEDispatcher.cpp
+         CCLabel.cpp
+         CCLabelAtlas.cpp
+         CCLabelBMFont.cpp
+         CCLabelTextFormatter.cpp
+         CCLabelTTF.cpp
+         CCLayer.cpp
+         CCMenu.cpp
+         CCMenuItem.cpp
+         CCMotionStreak.cpp
+         CCNode.cpp
+         CCParallaxNode.cpp
+         CCParticleBatchNode.cpp
+         CCParticleExamples.cpp
+         CCParticleSystem.cpp
+         CCParticleSystemQuad.cpp
+         CCProfiling.cpp
+         CCProgressTimer.cpp
+         CCRenderTexture.cpp
+         CCScene.cpp
+         CCScheduler.cpp
+         CCScriptSupport.cpp
+         CCShaderCache.cpp
+         ccShaders.cpp
+         CCSprite.cpp
+         CCSpriteBatchNode.cpp
+         CCSpriteFrame.cpp
+         CCSpriteFrameCache.cpp
+         CCTextFieldTTF.cpp
+         CCTexture2D.cpp
+         CCTextureAtlas.cpp
+         CCTextureCache.cpp
+         CCTileMapAtlas.cpp
+         CCTMXLayer.cpp
+         CCTMXObjectGroup.cpp
+         CCTMXTiledMap.cpp
+         CCTMXXMLParser.cpp
+         CCTouch.cpp
+         CCTransition.cpp
+         CCTransitionPageTurn.cpp
+         CCTransitionProgress.cpp
+         ccTypes.cpp
+         CCTweenFunction.cpp
+         CCUserDefault.cpp
+         ccUTF8.cpp
+         ccUtils.cpp
+         CCVertex.cpp
+         cocos2d.cpp
+         CCGLViewProtocol.cpp
+         CCFileUtils.cpp
+         CCImage.cpp
+         CCSAXParser.cpp
+         CCThread.cpp
+         CCGLView.cpp
+         CCApplication.cpp
+         CCCommon.cpp
+         CCDevice.cpp
+         CCFileUtilsWin32.cpp
+         CCStdC.cpp
+         CCBatchCommand.cpp
+         CCCustomCommand.cpp
+         CCFrustum.cpp
+     1>d:\demo\release\towerdefense\cocos2d\cocos\2d\platform\win32\CCFileUtilsWin32.h(102): warning C4996: 'cocos2d::FileUtils::getFileData': 被声明为已否决 (platform\win32\CCFileUtilsWin32.cpp)
+                 D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+         CCGroupCommand.cpp
+         CCMaterialManager.cpp
+         CCQuadCommand.cpp
+         CCRenderCommand.cpp
+         CCRenderer.cpp
+         CCRenderMaterial.cpp
+         TGAlib.cpp
+         TransformUtils.cpp
+         ZipUtils.cpp
+       已完成执行任务“CL”的操作。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ClCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“ManagedIncrementalBuildPostProcessDependencyGraph”；('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')的计算结果为('..\..\external\edtaa3func\edtaa3func.cpp;..\..\external\tinyxml2\tinyxml2.cpp;..\..\external\unzip\ioapi.cpp;..\..\external\unzip\unzip.cpp;..\..\external\xxhash\xxhash.c;..\base\atitc.cpp;..\base\CCAffineTransform.cpp;..\base\CCAutoreleasePool.cpp;..\base\CCConsole.cpp;..\base\CCData.cpp;..\base\CCDataVisitor.cpp;..\base\CCGeometry.cpp;..\base\CCNS.cpp;..\base\CCRef.cpp;..\base\CCValue.cpp;..\base\etc1.cpp;..\base\s3tc.cpp;..\deprecated\CCArray.cpp;..\deprecated\CCDeprecated.cpp;..\deprecated\CCDictionary.cpp;..\deprecated\CCNotificationCenter.cpp;..\deprecated\CCSet.cpp;..\deprecated\CCString.cpp;..\math\kazmath\kazmath\aabb.c;..\math\kazmath\kazmath\GL\mat4stack.c;..\math\kazmath\kazmath\GL\matrix.c;..\math\kazmath\kazmath\mat3.c;..\math\kazmath\kazmath\mat4.c;..\math\kazmath\kazmath\neon_matrix_impl.c;..\math\kazmath\kazmath\plane.c;..\math\kazmath\kazmath\quaternion.c;..\math\kazmath\kazmath\ray2.c;..\math\kazmath\kazmath\ray3.c;..\math\kazmath\kazmath\utility.c;..\math\kazmath\kazmath\vec2.c;..\math\kazmath\kazmath\vec3.c;..\math\kazmath\kazmath\vec4.c;..\physics\CCPhysicsBody.cpp;..\physics\CCPhysicsContact.cpp;..\physics\CCPhysicsJoint.cpp;..\physics\CCPhysicsShape.cpp;..\physics\CCPhysicsWorld.cpp;..\physics\chipmunk\CCPhysicsBodyInfo_chipmunk.cpp;..\physics\chipmunk\CCPhysicsContactInfo_chipmunk.cpp;..\physics\chipmunk\CCPhysicsJointInfo_chipmunk.cpp;..\physics\chipmunk\CCPhysicsShapeInfo_chipmunk.cpp;..\physics\chipmunk\CCPhysicsWorldInfo_chipmunk.cpp;base64.cpp;CCAction.cpp;CCActionCamera.cpp;CCActionCatmullRom.cpp;CCActionEase.cpp;CCActionGrid.cpp;CCActionGrid3D.cpp;CCActionInstant.cpp;CCActionInterval.cpp;CCActionManager.cpp;CCActionPageTurn3D.cpp;CCActionProgressTimer.cpp;CCActionTiledGrid.cpp;CCActionTween.cpp;CCAnimation.cpp;CCAnimationCache.cpp;CCAtlasNode.cpp;ccCArray.cpp;CCClippingNode.cpp;CCComponent.cpp;CCComponentContainer.cpp;CCConfiguration.cpp;CCDirector.cpp;CCDrawingPrimitives.cpp;CCDrawNode.cpp;CCEvent.cpp;CCEventAcceleration.cpp;CCEventCustom.cpp;CCEventDispatcher.cpp;CCEventKeyboard.cpp;CCEventListener.cpp;CCEventListenerAcceleration.cpp;CCEventListenerCustom.cpp;CCEventListenerKeyboard.cpp;CCEventListenerMouse.cpp;CCEventListenerTouch.cpp;CCEventMouse.cpp;CCEventTouch.cpp;CCFont.cpp;CCFontAtlas.cpp;CCFontAtlasCache.cpp;CCFontCharMap.cpp;CCFontFNT.cpp;CCFontFreeType.cpp;ccFPSImages.c;CCGLProgram.cpp;ccGLStateCache.cpp;CCGrabber.cpp;CCGrid.cpp;CCNodeGrid.cpp;CCIMEDispatcher.cpp;CCLabel.cpp;CCLabelAtlas.cpp;CCLabelBMFont.cpp;CCLabelTextFormatter.cpp;CCLabelTTF.cpp;CCLayer.cpp;CCMenu.cpp;CCMenuItem.cpp;CCMotionStreak.cpp;CCNode.cpp;CCParallaxNode.cpp;CCParticleBatchNode.cpp;CCParticleExamples.cpp;CCParticleSystem.cpp;CCParticleSystemQuad.cpp;CCProfiling.cpp;CCProgressTimer.cpp;CCRenderTexture.cpp;CCScene.cpp;CCScheduler.cpp;CCScriptSupport.cpp;CCShaderCache.cpp;ccShaders.cpp;CCSprite.cpp;CCSpriteBatchNode.cpp;CCSpriteFrame.cpp;CCSpriteFrameCache.cpp;CCTextFieldTTF.cpp;CCTexture2D.cpp;CCTextureAtlas.cpp;CCTextureCache.cpp;CCTileMapAtlas.cpp;CCTMXLayer.cpp;CCTMXObjectGroup.cpp;CCTMXTiledMap.cpp;CCTMXXMLParser.cpp;CCTouch.cpp;CCTransition.cpp;CCTransitionPageTurn.cpp;CCTransitionProgress.cpp;ccTypes.cpp;CCTweenFunction.cpp;CCUserDefault.cpp;ccUTF8.cpp;ccUtils.cpp;CCVertex.cpp;cocos2d.cpp;platform\CCGLViewProtocol.cpp;platform\CCFileUtils.cpp;platform\CCImage.cpp;platform\CCSAXParser.cpp;platform\CCThread.cpp;platform\desktop\CCGLView.cpp;platform\win32\CCApplication.cpp;platform\win32\CCCommon.cpp;platform\win32\CCDevice.cpp;platform\win32\CCFileUtilsWin32.cpp;platform\win32\CCStdC.cpp;renderer\CCBatchCommand.cpp;renderer\CCCustomCommand.cpp;renderer\CCFrustum.cpp;renderer\CCGroupCommand.cpp;renderer\CCMaterialManager.cpp;renderer\CCQuadCommand.cpp;renderer\CCRenderCommand.cpp;renderer\CCRenderer.cpp;renderer\CCRenderMaterial.cpp;TGAlib.cpp;TransformUtils.cpp;ZipUtils.cpp' != '' and 'false' == 'True')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“AfterClCompile”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“AfterClCompile”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_ClCompile”(目标“_BuildCompileAction”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_ClCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“_ResGen”；('@(EmbeddedResource)'!='')的计算结果为(''!='')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“BeforeResourceCompile”(目标“_ResourceCompile”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“BeforeResourceCompile”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“MakeDirsForResourceCompile”(目标“_ResourceCompile”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“MakeDirsForResourceCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“ResourceCompile”；('@(ResourceCompile)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“AfterResourceCompile”(目标“_ResourceCompile”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“AfterResourceCompile”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_ResourceCompile”(目标“_BuildCompileAction”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_ResourceCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“_ImpLib”；('$(ImpLibCompiled)' == 'true')的计算结果为('' == 'true')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“BeforeLib”(目标“_Lib”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“BeforeLib”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeLibAdditionalOptions”(目标“_Lib”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ComputeLibAdditionalOptions”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeRCOutputs”(目标“ComputeRCGeneratedLibInputs”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ComputeRCOutputs”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeRCGeneratedLibInputs”(目标“_Lib”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ComputeRCGeneratedLibInputs”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeCustomBuildOutput”(目标“_Lib”依赖于它):
+       由于 false 条件，已跳过任务“CreateItem”；('%(CustomBuildDirsToMake.OutputFileToTool)'!='')计算为(''!='')。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ComputeCustomBuildOutput”的操作。
+       已跳过目标“ComputeMIDLGeneratedCompileInputs”。以前的生成已成功。
+       已跳过目标“ComputeCLInputPDBName”。以前的生成已成功。
+       已跳过目标“ComputeReferenceCLInput”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeCLOutputs”(目标“ComputeCLGeneratedLibInputs”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ComputeCLOutputs”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeCLGeneratedLibInputs”(目标“_Lib”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ComputeCLGeneratedLibInputs”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeLibInputsFromProject”(目标“_Lib”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ComputeLibInputsFromProject”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeReferenceLibInputs”；(@(ProjectReference) != '')的计算结果为( != '')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“MakeDirsForLib”(目标“_Lib”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“MakeDirsForLib”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“DoLibOutputFilesMatch”(目标“_Lib”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('@(_OutputFileFromLib)' == '')计算为('D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\libcocos2d.lib' == '')。
+       由于 false 条件，已跳过任务“VCMessage”；('@(_OutputFileFromLib)' != '' and '%(_OutputFileFromLib.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))')计算为('D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\libcocos2d.lib' != '' and 'D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\libcocos2d.lib' != 'D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\libcocos2d.lib')。
+       由于 false 条件，已跳过任务“VCMessage”；('@(_OutputFileFromLib)' != '' and '%(_OutputFileFromLib.Extension)' != '$(TargetExt)')计算为('D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\libcocos2d.lib' != '' and '.lib' != '.lib')。
+       由于 false 条件，已跳过任务“VCMessage”；('@(_OutputFileFromLib)' != '' and '%(_OutputFileFromLib.Filename)' != '$(TargetName)')计算为('D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\libcocos2d.lib' != '' and 'libcocos2d' != 'libcocos2d')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“DoLibOutputFilesMatch”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets”中的目标“PreLinkEvent”(目标“_Lib”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '')计算为('' != '' and 'if not exist "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\" mkdir "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+       xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\freetype2\prebuilt\win32\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+       xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\glfw3\prebuilt\win32\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+       xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\curl\prebuilt\win32\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+       xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\jpeg\prebuilt\win32\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+       xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\png\prebuilt\win32\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+       xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\tiff\prebuilt\win32\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+       xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\webp\prebuilt\win32\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+       xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\win32-specific\zlib\prebuilt\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+       xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\win32-specific\icon\prebuilt\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+       xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\win32-specific\gles\prebuilt\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+       ' != '')。
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Exec”任务。
+       任务“Exec”
+         if not exist "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\" mkdir "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\freetype2\prebuilt\win32\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\glfw3\prebuilt\win32\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\curl\prebuilt\win32\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\jpeg\prebuilt\win32\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\png\prebuilt\win32\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\tiff\prebuilt\win32\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\webp\prebuilt\win32\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\win32-specific\zlib\prebuilt\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\win32-specific\icon\prebuilt\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\win32-specific\gles\prebuilt\*.*" "D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         复制了 1 个文件
+         复制了 1 个文件
+         复制了 2 个文件
+         复制了 1 个文件
+         复制了 1 个文件
+         复制了 2 个文件
+         复制了 1 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+       已完成执行任务“Exec”的操作。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“PreLinkEvent”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets”中的目标“Lib”(目标“_Lib”依赖于它):
+       正在使用程序集“Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“LIB”任务。
+       任务“LIB”
+         Forcing rebuild of all source files due to missing command TLog "D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\Debug.win32\lib.command.1.tlog".
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\libcocos2d.lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /NOLOGO Debug.win32\edtaa3func.obj
+         Debug.win32\tinyxml2.obj
+         Debug.win32\ioapi.obj
+         Debug.win32\unzip.obj
+         Debug.win32\xxhash.obj
+         Debug.win32\atitc.obj
+         Debug.win32\CCAffineTransform.obj
+         Debug.win32\CCAutoreleasePool.obj
+         Debug.win32\CCConsole.obj
+         Debug.win32\CCData.obj
+         Debug.win32\CCDataVisitor.obj
+         Debug.win32\CCGeometry.obj
+         Debug.win32\CCNS.obj
+         Debug.win32\CCRef.obj
+         Debug.win32\CCValue.obj
+         Debug.win32\etc1.obj
+         Debug.win32\s3tc.obj
+         Debug.win32\CCArray.obj
+         Debug.win32\CCDeprecated.obj
+         Debug.win32\CCDictionary.obj
+         Debug.win32\CCNotificationCenter.obj
+         Debug.win32\CCSet.obj
+         Debug.win32\CCString.obj
+         Debug.win32\aabb.obj
+         Debug.win32\mat4stack.obj
+         Debug.win32\matrix.obj
+         Debug.win32\mat3.obj
+         Debug.win32\mat4.obj
+         Debug.win32\neon_matrix_impl.obj
+         Debug.win32\plane.obj
+         Debug.win32\quaternion.obj
+         Debug.win32\ray2.obj
+         Debug.win32\ray3.obj
+         Debug.win32\utility.obj
+         Debug.win32\vec2.obj
+         Debug.win32\vec3.obj
+         Debug.win32\vec4.obj
+         Debug.win32\CCPhysicsBody.obj
+         Debug.win32\CCPhysicsContact.obj
+         Debug.win32\CCPhysicsJoint.obj
+         Debug.win32\CCPhysicsShape.obj
+         Debug.win32\CCPhysicsWorld.obj
+         Debug.win32\CCPhysicsBodyInfo_chipmunk.obj
+         Debug.win32\CCPhysicsContactInfo_chipmunk.obj
+         Debug.win32\CCPhysicsJointInfo_chipmunk.obj
+         Debug.win32\CCPhysicsShapeInfo_chipmunk.obj
+         Debug.win32\CCPhysicsWorldInfo_chipmunk.obj
+         Debug.win32\base64.obj
+         Debug.win32\CCAction.obj
+         Debug.win32\CCActionCamera.obj
+         Debug.win32\CCActionCatmullRom.obj
+         Debug.win32\CCActionEase.obj
+         Debug.win32\CCActionGrid.obj
+         Debug.win32\CCActionGrid3D.obj
+         Debug.win32\CCActionInstant.obj
+         Debug.win32\CCActionInterval.obj
+         Debug.win32\CCActionManager.obj
+         Debug.win32\CCActionPageTurn3D.obj
+         Debug.win32\CCActionProgressTimer.obj
+         Debug.win32\CCActionTiledGrid.obj
+         Debug.win32\CCActionTween.obj
+         Debug.win32\CCAnimation.obj
+         Debug.win32\CCAnimationCache.obj
+         Debug.win32\CCAtlasNode.obj
+         Debug.win32\ccCArray.obj
+         Debug.win32\CCClippingNode.obj
+         Debug.win32\CCComponent.obj
+         Debug.win32\CCComponentContainer.obj
+         Debug.win32\CCConfiguration.obj
+         Debug.win32\CCDirector.obj
+         Debug.win32\CCDrawingPrimitives.obj
+         Debug.win32\CCDrawNode.obj
+         Debug.win32\CCEvent.obj
+         Debug.win32\CCEventAcceleration.obj
+         Debug.win32\CCEventCustom.obj
+         Debug.win32\CCEventDispatcher.obj
+         Debug.win32\CCEventKeyboard.obj
+         Debug.win32\CCEventListener.obj
+         Debug.win32\CCEventListenerAcceleration.obj
+         Debug.win32\CCEventListenerCustom.obj
+         Debug.win32\CCEventListenerKeyboard.obj
+         Debug.win32\CCEventListenerMouse.obj
+         Debug.win32\CCEventListenerTouch.obj
+         Debug.win32\CCEventMouse.obj
+         Debug.win32\CCEventTouch.obj
+         Debug.win32\CCFont.obj
+         Debug.win32\CCFontAtlas.obj
+         Debug.win32\CCFontAtlasCache.obj
+         Debug.win32\CCFontCharMap.obj
+         Debug.win32\CCFontFNT.obj
+         Debug.win32\CCFontFreeType.obj
+         Debug.win32\ccFPSImages.obj
+         Debug.win32\CCGLProgram.obj
+         Debug.win32\ccGLStateCache.obj
+         Debug.win32\CCGrabber.obj
+         Debug.win32\CCGrid.obj
+         Debug.win32\CCNodeGrid.obj
+         Debug.win32\CCIMEDispatcher.obj
+         Debug.win32\CCLabel.obj
+         Debug.win32\CCLabelAtlas.obj
+         Debug.win32\CCLabelBMFont.obj
+         Debug.win32\CCLabelTextFormatter.obj
+         Debug.win32\CCLabelTTF.obj
+         Debug.win32\CCLayer.obj
+         Debug.win32\CCMenu.obj
+         Debug.win32\CCMenuItem.obj
+         Debug.win32\CCMotionStreak.obj
+         Debug.win32\CCNode.obj
+         Debug.win32\CCParallaxNode.obj
+         Debug.win32\CCParticleBatchNode.obj
+         Debug.win32\CCParticleExamples.obj
+         Debug.win32\CCParticleSystem.obj
+         Debug.win32\CCParticleSystemQuad.obj
+         Debug.win32\CCProfiling.obj
+         Debug.win32\CCProgressTimer.obj
+         Debug.win32\CCRenderTexture.obj
+         Debug.win32\CCScene.obj
+         Debug.win32\CCScheduler.obj
+         Debug.win32\CCScriptSupport.obj
+         Debug.win32\CCShaderCache.obj
+         Debug.win32\ccShaders.obj
+         Debug.win32\CCSprite.obj
+         Debug.win32\CCSpriteBatchNode.obj
+         Debug.win32\CCSpriteFrame.obj
+         Debug.win32\CCSpriteFrameCache.obj
+         Debug.win32\CCTextFieldTTF.obj
+         Debug.win32\CCTexture2D.obj
+         Debug.win32\CCTextureAtlas.obj
+         Debug.win32\CCTextureCache.obj
+         Debug.win32\CCTileMapAtlas.obj
+         Debug.win32\CCTMXLayer.obj
+         Debug.win32\CCTMXObjectGroup.obj
+         Debug.win32\CCTMXTiledMap.obj
+         Debug.win32\CCTMXXMLParser.obj
+         Debug.win32\CCTouch.obj
+         Debug.win32\CCTransition.obj
+         Debug.win32\CCTransitionPageTurn.obj
+         Debug.win32\CCTransitionProgress.obj
+         Debug.win32\ccTypes.obj
+         Debug.win32\CCTweenFunction.obj
+         Debug.win32\CCUserDefault.obj
+         Debug.win32\ccUTF8.obj
+         Debug.win32\ccUtils.obj
+         Debug.win32\CCVertex.obj
+         Debug.win32\cocos2d.obj
+         Debug.win32\CCGLViewProtocol.obj
+         Debug.win32\CCFileUtils.obj
+         Debug.win32\CCImage.obj
+         Debug.win32\CCSAXParser.obj
+         Debug.win32\CCThread.obj
+         Debug.win32\CCGLView.obj
+         Debug.win32\CCApplication.obj
+         Debug.win32\CCCommon.obj
+         Debug.win32\CCDevice.obj
+         Debug.win32\CCFileUtilsWin32.obj
+         Debug.win32\CCStdC.obj
+         Debug.win32\CCBatchCommand.obj
+         Debug.win32\CCCustomCommand.obj
+         Debug.win32\CCFrustum.obj
+         Debug.win32\CCGroupCommand.obj
+         Debug.win32\CCMaterialManager.obj
+         Debug.win32\CCQuadCommand.obj
+         Debug.win32\CCRenderCommand.obj
+         Debug.win32\CCRenderer.obj
+         Debug.win32\CCRenderMaterial.obj
+         Debug.win32\TGAlib.obj
+         Debug.win32\TransformUtils.obj
+         Debug.win32\ZipUtils.obj
+         Tracking command:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\Debug.win32 /r "D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\AABB.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\ATITC.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\BASE64.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCACTION.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCACTIONCAMERA.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCACTIONCATMULLROM.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCACTIONEASE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCACTIONGRID.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCACTIONGRID3D.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCACTIONINSTANT.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCACTIONINTERVAL.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCACTIONMANAGER.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCACTIONPAGETURN3D.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCACTIONPROGRESSTIMER.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCACTIONTILEDGRID.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCACTIONTWEEN.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCAFFINETRANSFORM.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCANIMATION.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCANIMATIONCACHE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCAPPLICATION.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCARRAY.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCATLASNODE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCAUTORELEASEPOOL.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCBATCHCOMMAND.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCCARRAY.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCCLIPPINGNODE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCCOMMON.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCCOMPONENT.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCCOMPONENTCONTAINER.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCCONFIGURATION.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCCONSOLE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCCUSTOMCOMMAND.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCDATA.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCDATAVISITOR.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCDEPRECATED.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCDEVICE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCDICTIONARY.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCDIRECTOR.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCDRAWINGPRIMITIVES.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCDRAWNODE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCEVENT.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCEVENTACCELERATION.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCEVENTCUSTOM.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCEVENTDISPATCHER.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCEVENTKEYBOARD.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCEVENTLISTENER.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCEVENTLISTENERACCELERATION.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCEVENTLISTENERCUSTOM.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCEVENTLISTENERKEYBOARD.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCEVENTLISTENERMOUSE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCEVENTLISTENERTOUCH.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCEVENTMOUSE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCEVENTTOUCH.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCFILEUTILS.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCFILEUTILSWIN32.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCFONT.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCFONTATLAS.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCFONTATLASCACHE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCFONTCHARMAP.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCFONTFNT.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCFONTFREETYPE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCFPSIMAGES.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCFRUSTUM.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCGEOMETRY.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCGLPROGRAM.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCGLSTATECACHE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCGLVIEW.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCGLVIEWPROTOCOL.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCGRABBER.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCGRID.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCGROUPCOMMAND.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCIMAGE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCIMEDISPATCHER.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCLABEL.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCLABELATLAS.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCLABELBMFONT.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCLABELTEXTFORMATTER.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCLABELTTF.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCLAYER.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCMATERIALMANAGER.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCMENU.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCMENUITEM.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCMOTIONSTREAK.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCNODE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCNODEGRID.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCNOTIFICATIONCENTER.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCNS.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCPARALLAXNODE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCPARTICLEBATCHNODE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCPARTICLEEXAMPLES.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCPARTICLESYSTEM.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCPARTICLESYSTEMQUAD.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCPHYSICSBODY.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCPHYSICSBODYINFO_CHIPMUNK.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCPHYSICSCONTACT.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCPHYSICSCONTACTINFO_CHIPMUNK.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCPHYSICSJOINT.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCPHYSICSJOINTINFO_CHIPMUNK.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCPHYSICSSHAPE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCPHYSICSSHAPEINFO_CHIPMUNK.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCPHYSICSWORLD.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCPHYSICSWORLDINFO_CHIPMUNK.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCPROFILING.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCPROGRESSTIMER.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCQUADCOMMAND.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCREF.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCRENDERCOMMAND.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCRENDERER.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCRENDERMATERIAL.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCRENDERTEXTURE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCSAXPARSER.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCSCENE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCSCHEDULER.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCSCRIPTSUPPORT.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCSET.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCSHADERCACHE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCSHADERS.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCSPRITE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCSPRITEBATCHNODE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCSPRITEFRAME.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCSPRITEFRAMECACHE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCSTDC.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCSTRING.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCTEXTFIELDTTF.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCTEXTURE2D.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCTEXTUREATLAS.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCTEXTURECACHE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCTHREAD.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCTILEMAPATLAS.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCTMXLAYER.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCTMXOBJECTGROUP.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCTMXTILEDMAP.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCTMXXMLPARSER.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCTOUCH.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCTRANSITION.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCTRANSITIONPAGETURN.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCTRANSITIONPROGRESS.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCTWEENFUNCTION.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCTYPES.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCUSERDEFAULT.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCUTF8.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCUTILS.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCVALUE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\CCVERTEX.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\COCOS2D.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\EDTAA3FUNC.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\ETC1.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\IOAPI.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\MAT3.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\MAT4.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\MAT4STACK.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\MATRIX.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\NEON_MATRIX_IMPL.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\PLANE.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\QUATERNION.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\RAY2.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\RAY3.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\S3TC.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\TGALIB.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\TINYXML2.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\TRANSFORMUTILS.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\UNZIP.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\UTILITY.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\VEC2.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\VEC3.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\VEC4.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\XXHASH.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\2D\DEBUG.WIN32\ZIPUTILS.OBJ" /b MSBuildConsole_CancelEvent7ffd856a1cfb426fb8878d98c1fa685d  /c "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe"  /OUT:"D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\libcocos2d.lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /NOLOGO Debug.win32\edtaa3func.obj
+         Debug.win32\tinyxml2.obj
+         Debug.win32\ioapi.obj
+         Debug.win32\unzip.obj
+         Debug.win32\xxhash.obj
+         Debug.win32\atitc.obj
+         Debug.win32\CCAffineTransform.obj
+         Debug.win32\CCAutoreleasePool.obj
+         Debug.win32\CCConsole.obj
+         Debug.win32\CCData.obj
+         Debug.win32\CCDataVisitor.obj
+         Debug.win32\CCGeometry.obj
+         Debug.win32\CCNS.obj
+         Debug.win32\CCRef.obj
+         Debug.win32\CCValue.obj
+         Debug.win32\etc1.obj
+         Debug.win32\s3tc.obj
+         Debug.win32\CCArray.obj
+         Debug.win32\CCDeprecated.obj
+         Debug.win32\CCDictionary.obj
+         Debug.win32\CCNotificationCenter.obj
+         Debug.win32\CCSet.obj
+         Debug.win32\CCString.obj
+         Debug.win32\aabb.obj
+         Debug.win32\mat4stack.obj
+         Debug.win32\matrix.obj
+         Debug.win32\mat3.obj
+         Debug.win32\mat4.obj
+         Debug.win32\neon_matrix_impl.obj
+         Debug.win32\plane.obj
+         Debug.win32\quaternion.obj
+         Debug.win32\ray2.obj
+         Debug.win32\ray3.obj
+         Debug.win32\utility.obj
+         Debug.win32\vec2.obj
+         Debug.win32\vec3.obj
+         Debug.win32\vec4.obj
+         Debug.win32\CCPhysicsBody.obj
+         Debug.win32\CCPhysicsContact.obj
+         Debug.win32\CCPhysicsJoint.obj
+         Debug.win32\CCPhysicsShape.obj
+         Debug.win32\CCPhysicsWorld.obj
+         Debug.win32\CCPhysicsBodyInfo_chipmunk.obj
+         Debug.win32\CCPhysicsContactInfo_chipmunk.obj
+         Debug.win32\CCPhysicsJointInfo_chipmunk.obj
+         Debug.win32\CCPhysicsShapeInfo_chipmunk.obj
+         Debug.win32\CCPhysicsWorldInfo_chipmunk.obj
+         Debug.win32\base64.obj
+         Debug.win32\CCAction.obj
+         Debug.win32\CCActionCamera.obj
+         Debug.win32\CCActionCatmullRom.obj
+         Debug.win32\CCActionEase.obj
+         Debug.win32\CCActionGrid.obj
+         Debug.win32\CCActionGrid3D.obj
+         Debug.win32\CCActionInstant.obj
+         Debug.win32\CCActionInterval.obj
+         Debug.win32\CCActionManager.obj
+         Debug.win32\CCActionPageTurn3D.obj
+         Debug.win32\CCActionProgressTimer.obj
+         Debug.win32\CCActionTiledGrid.obj
+         Debug.win32\CCActionTween.obj
+         Debug.win32\CCAnimation.obj
+         Debug.win32\CCAnimationCache.obj
+         Debug.win32\CCAtlasNode.obj
+         Debug.win32\ccCArray.obj
+         Debug.win32\CCClippingNode.obj
+         Debug.win32\CCComponent.obj
+         Debug.win32\CCComponentContainer.obj
+         Debug.win32\CCConfiguration.obj
+         Debug.win32\CCDirector.obj
+         Debug.win32\CCDrawingPrimitives.obj
+         Debug.win32\CCDrawNode.obj
+         Debug.win32\CCEvent.obj
+         Debug.win32\CCEventAcceleration.obj
+         Debug.win32\CCEventCustom.obj
+         Debug.win32\CCEventDispatcher.obj
+         Debug.win32\CCEventKeyboard.obj
+         Debug.win32\CCEventListener.obj
+         Debug.win32\CCEventListenerAcceleration.obj
+         Debug.win32\CCEventListenerCustom.obj
+         Debug.win32\CCEventListenerKeyboard.obj
+         Debug.win32\CCEventListenerMouse.obj
+         Debug.win32\CCEventListenerTouch.obj
+         Debug.win32\CCEventMouse.obj
+         Debug.win32\CCEventTouch.obj
+         Debug.win32\CCFont.obj
+         Debug.win32\CCFontAtlas.obj
+         Debug.win32\CCFontAtlasCache.obj
+         Debug.win32\CCFontCharMap.obj
+         Debug.win32\CCFontFNT.obj
+         Debug.win32\CCFontFreeType.obj
+         Debug.win32\ccFPSImages.obj
+         Debug.win32\CCGLProgram.obj
+         Debug.win32\ccGLStateCache.obj
+         Debug.win32\CCGrabber.obj
+         Debug.win32\CCGrid.obj
+         Debug.win32\CCNodeGrid.obj
+         Debug.win32\CCIMEDispatcher.obj
+         Debug.win32\CCLabel.obj
+         Debug.win32\CCLabelAtlas.obj
+         Debug.win32\CCLabelBMFont.obj
+         Debug.win32\CCLabelTextFormatter.obj
+         Debug.win32\CCLabelTTF.obj
+         Debug.win32\CCLayer.obj
+         Debug.win32\CCMenu.obj
+         Debug.win32\CCMenuItem.obj
+         Debug.win32\CCMotionStreak.obj
+         Debug.win32\CCNode.obj
+         Debug.win32\CCParallaxNode.obj
+         Debug.win32\CCParticleBatchNode.obj
+         Debug.win32\CCParticleExamples.obj
+         Debug.win32\CCParticleSystem.obj
+         Debug.win32\CCParticleSystemQuad.obj
+         Debug.win32\CCProfiling.obj
+         Debug.win32\CCProgressTimer.obj
+         Debug.win32\CCRenderTexture.obj
+         Debug.win32\CCScene.obj
+         Debug.win32\CCScheduler.obj
+         Debug.win32\CCScriptSupport.obj
+         Debug.win32\CCShaderCache.obj
+         Debug.win32\ccShaders.obj
+         Debug.win32\CCSprite.obj
+         Debug.win32\CCSpriteBatchNode.obj
+         Debug.win32\CCSpriteFrame.obj
+         Debug.win32\CCSpriteFrameCache.obj
+         Debug.win32\CCTextFieldTTF.obj
+         Debug.win32\CCTexture2D.obj
+         Debug.win32\CCTextureAtlas.obj
+         Debug.win32\CCTextureCache.obj
+         Debug.win32\CCTileMapAtlas.obj
+         Debug.win32\CCTMXLayer.obj
+         Debug.win32\CCTMXObjectGroup.obj
+         Debug.win32\CCTMXTiledMap.obj
+         Debug.win32\CCTMXXMLParser.obj
+         Debug.win32\CCTouch.obj
+         Debug.win32\CCTransition.obj
+         Debug.win32\CCTransitionPageTurn.obj
+         Debug.win32\CCTransitionProgress.obj
+         Debug.win32\ccTypes.obj
+         Debug.win32\CCTweenFunction.obj
+         Debug.win32\CCUserDefault.obj
+         Debug.win32\ccUTF8.obj
+         Debug.win32\ccUtils.obj
+         Debug.win32\CCVertex.obj
+         Debug.win32\cocos2d.obj
+         Debug.win32\CCGLViewProtocol.obj
+         Debug.win32\CCFileUtils.obj
+         Debug.win32\CCImage.obj
+         Debug.win32\CCSAXParser.obj
+         Debug.win32\CCThread.obj
+         Debug.win32\CCGLView.obj
+         Debug.win32\CCApplication.obj
+         Debug.win32\CCCommon.obj
+         Debug.win32\CCDevice.obj
+         Debug.win32\CCFileUtilsWin32.obj
+         Debug.win32\CCStdC.obj
+         Debug.win32\CCBatchCommand.obj
+         Debug.win32\CCCustomCommand.obj
+         Debug.win32\CCFrustum.obj
+         Debug.win32\CCGroupCommand.obj
+         Debug.win32\CCMaterialManager.obj
+         Debug.win32\CCQuadCommand.obj
+         Debug.win32\CCRenderCommand.obj
+         Debug.win32\CCRenderer.obj
+         Debug.win32\CCRenderMaterial.obj
+         Debug.win32\TGAlib.obj
+         Debug.win32\TransformUtils.obj
+         Debug.win32\ZipUtils.obj
+       已完成执行任务“LIB”的操作。
+       任务“Message”
+         cocos2d.vcxproj -> D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\libcocos2d.lib
+       已完成执行任务“Message”的操作。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“Lib”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“AfterLib”(目标“_Lib”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“AfterLib”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_Lib”(目标“_BuildCompileAction”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_Lib”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“AfterBuildCompileEvent”(目标“_BuildCompileAction”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“AfterBuildCompileEvent”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_BuildCompileAction”(目标“BuildCompile”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_BuildCompileAction”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildCompile”(目标“Build”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“BuildCompile”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildLinkTraverse”(目标“BuildLink”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')计算为('' == 'true' and '' != '' and '' != ''  and '' == 'true')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“BuildLinkTraverse”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeLegacyManifestEmbedding”(目标“_BuildLinkAction”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('$(RevertManifestEmbedding)' == 'true' and '$(_LegacyManifestEmbeddingDebug)' == 'true')计算为('' == 'true' and '' == 'true')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ComputeLegacyManifestEmbedding”的操作。
+       由于条件的计算结果为 false，已跳过目标“_Link”；('$(LinkCompiled)' == 'true')的计算结果为('' == 'true')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_ALink”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_ALink”的操作。
+       已跳过目标“ComputeLegacyManifestEmbedding”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_Manifest”(目标“_BuildLinkAction”依赖于它):
+       由于 false 条件，已跳过任务“CallTarget”；('$(LegacyManifestEmbedding)' == 'true')计算为('' == 'true')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_Manifest”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets”中的目标“RegisterOutput”(目标“_BuildLinkAction”依赖于它):
+       由于 false 条件，已跳过任务“Exec”；('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true')计算为('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''!='true')。
+       由于 false 条件，已跳过任务“Exec”；('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true')计算为('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''=='true')。
+       由于 false 条件，已跳过任务“Exec”；('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true')计算为('StaticLibrary'=='Application' and ''=='true' and ''!='true')。
+       由于 false 条件，已跳过任务“Exec”；('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true')计算为('StaticLibrary'=='Application' and ''=='true' and ''=='true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0')计算为('' != '' and '' != '0')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“RegisterOutput”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ResolvedXDCMake”(目标“_XdcMake”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true')计算为('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ResolvedXDCMake”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeCLCompileGeneratedXDCFiles”(目标“_XdcMake”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ComputeCLCompileGeneratedXDCFiles”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“MakeDirsForXdcMake”(目标“_XdcMake”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“MakeDirsForXdcMake”的操作。
+       由于条件的计算结果为 false，已跳过目标“XdcMake”；('@(XdcMake)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_XdcMake”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_XdcMake”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeCLCompileGeneratedSbrFiles”(目标“_BscMake”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“ComputeCLCompileGeneratedSbrFiles”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“MakeDirsForBscMake”(目标“_BscMake”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“MakeDirsForBscMake”的操作。
+       由于条件的计算结果为 false，已跳过目标“BscMake”；('@(BscMake)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“CustomBuildStep”；('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='')的计算结果为('' != '' and ''=='')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_BscMake”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_BscMake”的操作。
+       由于条件的计算结果为 false，已跳过目标“RunMergeNativeCodeAnalysis”；('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true')的计算结果为('C++'=='C++' and ''=='true')。
+       由于条件的计算结果为 false，已跳过目标“RunNativeCodeAnalysis”；('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true')的计算结果为('C++'=='C++' and ''=='true')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_GenerateSatelliteAssemblyInputs”(目标“CreateSatelliteAssemblies”依赖于它):
+       由于 false 条件，已跳过任务“Warning”；('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='')计算为(''!='' and ''=='')。
+       由于 false 条件，已跳过任务“Warning”；('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='')计算为(''!='' and ''=='')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_GenerateSatelliteAssemblyInputs”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeIntermediateSatelliteAssemblies”；(@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '')的计算结果为( != '')。
+       由于条件的计算结果为 false，已跳过目标“GenerateSatelliteAssemblies”；('@(_SatelliteAssemblyResourceInputs)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“CreateSatelliteAssemblies”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“CreateSatelliteAssemblies”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_Appverifier”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_Appverifier”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_Deploy”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_Deploy”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeIntermediateSatelliteAssemblies”；(@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '')的计算结果为( != '')。
+       由于条件的计算结果为 false，已跳过目标“_CopyFilesMarkedCopyLocal”；('@(ReferenceCopyLocalPaths)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“AssignTargetPaths”(目标“GetCopyToOutputDirectoryItems”依赖于它):
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       由于 false 条件，已跳过任务“AssignTargetPath”；('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest')计算为(''=='' and ''=='.manifest')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“AssignTargetPaths”的操作。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets”中的目标“GetCopyToOutputDirectoryXamlAppDefs”(目标“GetCopyToOutputDirectoryItems”依赖于它):
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“GetCopyToOutputDirectoryXamlAppDefs”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“GetCopyToOutputDirectoryItems”(目标“_CopySourceItemsToOutputDirectory”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true')计算为('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true')。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“GetCopyToOutputDirectoryItems”的操作。
+       由于条件的计算结果为 false，已跳过目标“_CopyOutOfDateSourceItemsToOutputDirectory”；( '@(_SourceItemsToCopyToOutputDirectory)' != '' )的计算结果为( '' != '' )。
+       由于条件的计算结果为 false，已跳过目标“_CopyOutOfDateSourceItemsToOutputDirectoryAlways”；( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' )的计算结果为( '' != '' )。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_CopySourceItemsToOutputDirectory”(目标“CopyFilesToOutputDirectory”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_CopySourceItemsToOutputDirectory”的操作。
+       由于条件的计算结果为 false，已跳过目标“_CopyAppConfigFile”；( '@(AppConfigWithTargetPath)' != '' )的计算结果为( '' != '' )。
+       由于条件的计算结果为 false，已跳过目标“_CopyManifestFiles”；( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' )的计算结果为( ''=='true' or ''=='true' )。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_CheckForCompileOutputs”(目标“CopyFilesToOutputDirectory”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_CheckForCompileOutputs”的操作。
+       由于条件的计算结果为 false，已跳过目标“_SGenCheckForOutputs”；('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto'))的计算结果为('Off' == 'On' or (''!='' and 'Off' == 'Auto'))。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“CopyFilesToOutputDirectory”(目标“PrepareForRun”依赖于它):
+       由于 false 条件，已跳过任务“Copy”；('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true')计算为('true' == 'true' and 'true' != 'true')。
+       由于 false 条件，已跳过任务“Message”；('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true')计算为('true' == 'true' and 'true'!='true')。
+       由于 false 条件，已跳过任务“Copy”；('@(AddModules)' != '')计算为('' != '')。
+       由于 false 条件，已跳过任务“Copy”；('$(_SGenDllCreated)'=='true')计算为('false'=='true')。
+       由于 false 条件，已跳过任务“Copy”；('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true')计算为('false'=='true' and '' != 'true' and 'true'=='true')。
+       由于 false 条件，已跳过任务“Copy”；('$(_DocumentationFileProduced)'=='true')计算为('false'=='true')。
+       由于 false 条件，已跳过任务“Copy”；('@(IntermediateSatelliteAssembliesWithTargetPath)' != '')计算为('' != '')。
+       由于 false 条件，已跳过任务“Copy”；('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' )计算为('' != '' or '' != '' or '' != '' or '' != '' )。
+       由于 false 条件，已跳过任务“Copy”；('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '')计算为('' != 'true' and '' != '')。
+       由于 false 条件，已跳过任务“Message”；('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '')计算为('' != 'true' and '' != '')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“CopyFilesToOutputDirectory”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“PrepareForRun”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“PrepareForRun”的操作。
+       由于条件的计算结果为 false，已跳过目标“CustomBuildStep”；('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='')的计算结果为('' != '' and ''=='')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets”中的目标“PostBuildEvent”(目标“_BuildLinkAction”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '')计算为('' != '' and '' != '')。
+       由于 false 条件，已跳过任务“Exec”；('%(PostBuildEvent.Command)' != '')计算为('' != '')。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“PostBuildEvent”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_BuildLinkAction”(目标“BuildLink”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“_BuildLinkAction”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildLink”(目标“Build”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“BuildLink”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets”中的目标“AfterBuild”(目标“Build”依赖于它):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“AfterBuild”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“FinalizeBuildStatus”(目标“Build”依赖于它):
+       任务“Delete”
+         正在删除文件“Debug.win32\libcocos2d.unsuccessfulbuild”。
+       已完成执行任务“Delete”的操作。
+       任务“Touch”
+         正在对“Debug.win32\libcocos2d.lastbuildstate”执行 Touch 任务。
+       已完成执行任务“Touch”的操作。
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“FinalizeBuildStatus”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets”中的目标“Build”(入口点):
+     1>已完成在项目“cocos2d.vcxproj”中生成目标“Build”的操作。
+     1>已完成生成项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\cocos2d.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:06:27.53

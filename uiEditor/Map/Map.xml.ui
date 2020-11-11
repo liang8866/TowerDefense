@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\DEMO\TowerDefense\uiEditor\Map</ProjectDir>
+  <Version>1.5.0.0</Version>
+  <Resources>D:\DEMO\TowerDefense\uiEditor\Map\Resources</Resources>
+  <Name>Map</Name>
+  <JsonFileName>Map.json</JsonFileName>
+  <JsonFolder>D:\DEMO\TowerDefense\uiEditor\Map\Json</JsonFolder>
+  <JsonList>
+    <string>Ui_SceneSelect.json</string>
+    <string>Map_1.json</string>
+    <string>Map_2.json</string>
+    <string>Map_3.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>2019</Width>
+    <Height>1253</Height>
+  </CanvasSize>
+  <filePath>D:\DEMO\TowerDefense\uiEditor\Map\Map.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>Map0.plist</string>
+    <string>Map1.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>Map_1.json</CurrentUIJson>
+</UIProject>

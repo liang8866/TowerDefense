@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuidesProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuidesProject>
+    <Project>Back</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>BackCell_1</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>BackCell_2</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>BackCell_Home</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>MessageBox</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_MainScene_1</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_NextRound</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_NextRound</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_GameOver</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_ObjectClicked</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_Shop</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Shop_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>HeroAltar_HeroItem</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_HeroAltar</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_Prompt</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>UI_Upgrades</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>altar_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_SceneItems</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_SceneItems_2</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_Sweet</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_Sweet_Dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_Ready</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_Ready_Item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Mask</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_Login_Awrad</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>HeroSelect_Item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_HeroSelect</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_Login</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>BackCell_3</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_Bag</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_Bag_Item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_Bag_Message</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Back_2</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Back_3</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_FreshMan</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_Ready_Item_1</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ProgressBar</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>BoxEnemyPt</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>BoxEnemyIntro</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_loading</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_Warning</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Ui_DebugLog</Project>
+    <GuidesList />
+  </GuidesProject>
+</ArrayOfGuidesProject>

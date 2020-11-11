@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>magicAtk</key>
+	<dict>
+		<key>cdtime</key>
+		<string>10.0</string>
+		<key>keeptime</key>
+		<string>2.4</string>
+		<key>atk</key>
+		<string>500</string>
+		<key>targetnum</key>
+		<string>10</string>
+	</dict>
+	<key>magicSheep</key>
+	<dict>
+		<key>cdtime</key>
+		<string>20.0</string>
+		<key>keeptime</key>
+		<string>2.4</string>
+		<key>atk</key>
+		<string>500</string>
+		<key>targetnum</key>
+		<string>10</string>
+	</dict>
+	<key>magicTransmit</key>
+	<dict>
+		<key>cdtime</key>
+		<string>25</string>
+		<key>keeptime</key>
+		<string>2.4</string>
+		<key>atk</key>
+		<string>500</string>
+		<key>targetnum</key>
+		<string>10</string>
+	</dict>
+	<key>magicGodzilla</key>
+	<dict>
+		<key>atkSpeed</key>
+		<string>2</string>
+		<key>cdTime</key>
+		<string>60</string>
+		<key>dfe</key>
+		<string>0.5</string>
+		<key>dfeOption</key>
+		<string>1</string>
+		<key>atkOption</key>
+		<string>3</string>
+		<key>maxHp</key>
+		<string>500</string>
+	</dict>
+</dict>
+</plist>

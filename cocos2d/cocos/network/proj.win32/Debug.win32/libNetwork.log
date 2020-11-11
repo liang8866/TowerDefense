@@ -1,0 +1,435 @@
+﻿生成启动时间为 2014/9/26 9:44:49。
+     1>项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”在节点 4 上(Build 个目标)。
+     1>正在使用工具版本“4.0”进行生成。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_CheckForInvalidConfigurationAndPlatform”(入口点):
+       由于 false 条件，已跳过任务“Error”；( '$(_InvalidConfigurationError)' == 'true' )计算为( '' == 'true' )。
+       由于 false 条件，已跳过任务“Warning”；( '$(_InvalidConfigurationWarning)' == 'true' )计算为( '' == 'true' )。
+       任务“Message”
+         Configuration=Debug
+       已完成执行任务“Message”的操作。
+       任务“Message”
+         Platform=Win32
+       已完成执行任务“Message”的操作。
+       由于 false 条件，已跳过任务“Error”；('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)'))计算为('D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\' != '' and !HasTrailingSlash('D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\'))。
+       由于 false 条件，已跳过任务“Error”；('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)'))计算为('obj\' != '' and !HasTrailingSlash('obj\'))。
+       由于 false 条件，已跳过任务“Error”；('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)'))计算为('Debug.win32\' != '' and !HasTrailingSlash('Debug.win32\'))。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_CheckForInvalidConfigurationAndPlatform”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets”中的目标“_PrepareForBuild”(目标“Build”依赖于它):
+       由于 false 条件，已跳过任务“CreateItem”；('%(CustomBuild.IncludeFileToTool)'!='')计算为(''!='')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_PrepareForBuild”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_PrepareForReferenceResolution”(目标“ResolveReferences”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('$(_REFERENCE_DEBUG)'=='true')计算为(''=='true')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_PrepareForReferenceResolution”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeCrtSDKReference”；('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')的计算结果为('..\HttpClient.cpp;..\SocketIO.cpp;..\WebSocket.cpp'!='' and 'false'=='true' and '' != 'false')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BeforeResolveReferences”(目标“ResolveReferences”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“BeforeResolveReferences”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“AssignProjectConfiguration”(目标“ResolveReferences”依赖于它):
+       任务“AssignProjectConfiguration”
+       已完成执行任务“AssignProjectConfiguration”的操作。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“AssignProjectConfiguration”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_SplitProjectReferencesByFileExistence”(目标“ResolveProjectReferences”依赖于它):
+       由于 false 条件，已跳过任务“ResolveNonMSBuildProjectOutput”；('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='')计算为('true'=='true' and ''!='')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_SplitProjectReferencesByFileExistence”的操作。
+       由于条件的计算结果为 false，已跳过目标“_RemoveNameMetadataFromProjectReferenceItems”；('@(ProjectReference)'!='')的计算结果为(''!='')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ResolveProjectReferences”(目标“ResolveReferences”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and 'true' == 'true' and '' != '')。
+       由于 false 条件，已跳过任务“Warning”；('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '')计算为('' != '' and '' != '')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ResolveProjectReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“ResolveNativeReferences”；('@(NativeReference)'!='')的计算结果为(''!='')。
+       已跳过目标“_PrepareForReferenceResolution”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets”中的目标“GetFrameworkPaths”(目标“ResolveAssemblyReferences”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“GetFrameworkPaths”的操作。
+       由于条件的计算结果为 false，已跳过目标“GetWinFXPath”；(('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' ))的计算结果为(('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' ))。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“GetReferenceAssemblyPaths”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetReferenceAssemblyPaths”；('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == ''))计算为('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == ''))。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“GetReferenceAssemblyPaths”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.targets”中的目标“SetBuildDefaultEnvironmentVariables”(目标“PrepareForBuild”依赖于它):
+       正在使用程序集“Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“SetEnv”任务。
+       任务“SetEnv”
+         PATH=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.0\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 11.0\;C:\Windows\SysWow64;;.;C:\Program Files\Java\jre7\bin;C:\Python27;E:\MyDeve\cocos2d-x-3.1.1\tools\cocos2d-console\bin;E:\资料库\cocos2d-x-3.0\cocos2d-x-3.0\tools\cocos2d-console\bin;
+       已完成执行任务“SetEnv”的操作。
+       由于 false 条件，已跳过任务“SetEnv”；('$(_IsNativeEnvironment)' == 'true')计算为('' == 'true')。
+       任务“SetEnv”
+         LIB=C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib;C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86;;
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         LIBPATH=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;;
+       已完成执行任务“SetEnv”的操作。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“SetBuildDefaultEnvironmentVariables”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.targets”中的目标“SetUserMacroEnvironmentVariables”(目标“PrepareForBuild”依赖于它):
+       任务“SetEnv”
+         EngineRoot=D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\
+       已完成执行任务“SetEnv”的操作。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“SetUserMacroEnvironmentVariables”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“GetResolvedWinMD”(目标“PrepareForBuild”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“GetResolvedWinMD”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets”中的目标“PlatformPrepareForBuild”(目标“PrepareForBuild”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true')计算为(''!='true' and 'true' != 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(ToolsetTargetsFound)' != 'true' and '$(PlatformToolset)' == 'v100')计算为(''!='true' and 'true' != 'true' and 'v110' == 'v100')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(ToolsetTargetsFound)' != 'true' and '$(PlatformToolset)' == 'v90')计算为(''!='true' and 'true' != 'true' and 'v110' == 'v90')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(ToolsetTargetsFound)' != 'true' and '$(PlatformToolset)' != 'v90' and '$(PlatformToolset)' != 'v100')计算为(''!='true' and 'true' != 'true' and 'v110' != 'v90' and 'v110' != 'v100')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“PlatformPrepareForBuild”的操作。
+       已跳过目标“GetFrameworkPaths”。以前的生成已成功。
+       已跳过目标“GetReferenceAssemblyPaths”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“PrepareForBuild”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true')计算为(''!='true' and 'true' != 'true')。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary')计算为(''!='true' and 'false'=='true' and 'StaticLibrary'!='Application' and 'StaticLibrary'!='DynamicLibrary' and 'StaticLibrary'!='StaticLibrary')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' ))计算为(''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' ))。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90')计算为(''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\'=='' and '' != 'true' and 'v110'=='v90')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true')计算为('C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\'=='' and '' != 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true')计算为('C:\Program Files (x86)\Windows Kits\8.0\'=='' and '' != 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(IntDirTrailingSlashWarning)'=='true')计算为(''=='true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(OutDirTrailingSlashWarning)'=='true')计算为(''=='true')。
+       由于 false 条件，已跳过任务“VCMessage”；('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true')计算为('' != '' and ''!='true')。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“PrepareForBuild”的操作。
+       已跳过目标“_PrepareForReferenceResolution”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“ComputeCrtSDKReference”；('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')的计算结果为('..\HttpClient.cpp;..\SocketIO.cpp;..\WebSocket.cpp'!='' and 'false'=='true' and '' != 'false')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“GetInstalledSDKLocations”(目标“ResolveSDKReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetInstalledSDKLocations”；('@(SDKReference)' != '')计算为('' != '')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“GetInstalledSDKLocations”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ResolveSDKReferences”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“ResolveSDKReference”；('@(SDKReference)'!='')计算为(''!='')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ResolveSDKReferences”的操作。
+       已跳过目标“ResolveSDKReferences”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ExpandSDKReferences”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetSDKReferenceFiles”；('@(ResolvedSDKReference)'!='')计算为(''!='')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ExpandSDKReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“FakesGenerateBeforeBuild”；(@(Fakes) != '' AND $(BuildingProject))的计算结果为( != '' AND true)。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ResolveAssemblyReferences”(目标“ResolveReferences”依赖于它):
+       由于 false 条件，已跳过任务“ResolveAssemblyReference”；('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '')计算为(''!='' or ''!='' or '' != '')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ResolveAssemblyReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“ResolveComReferences”；('@(COMReference)'!='' or '@(COMFileReference)'!='')的计算结果为(''!='' or ''!='')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“AfterResolveReferences”(目标“ResolveReferences”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“AfterResolveReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“ImplicitlyExpandDesignTimeFacades”；('$(ImplicitlyExpandDesignTimeFacades)' == 'true')的计算结果为('' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“ResolveTestReferences”；('@(Shadow)'!='')的计算结果为(''!='')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ResolveReferences”(目标“Build”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ResolveReferences”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“InitializeBuildStatus”(目标“Build”依赖于它):
+       任务“ReadLinesFromFile”
+       已完成执行任务“ReadLinesFromFile”的操作。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+       任务“Touch”
+         正在创建“Debug.win32\libNetwork.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       已完成执行任务“Touch”的操作。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“InitializeBuildStatus”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildGenerateSourcesTraverse”(目标“BuildGenerateSources”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')计算为('' == 'true' and '' != '' and '' != '' and '' == 'true')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“BuildGenerateSourcesTraverse”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets”中的目标“BeforeBuildGenerateSources”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“BeforeBuildGenerateSources”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets”中的目标“PreBuildEvent”(目标“_BuildGenerateSourcesAction”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '')计算为('' != '' and '' != '')。
+       由于 false 条件，已跳过任务“Exec”；('%(PreBuildEvent.Command)' != '')计算为('' != '')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“PreBuildEvent”的操作。
+       由于条件的计算结果为 false，已跳过目标“CustomBuild”；('@(CustomBuild)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“FxCompile”；('@(FxCompile)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“Xsd”；('@(Xsd)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_Xsd”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_Xsd”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“MakeDirsForMidl”(目标“_Midl”依赖于它):
+       任务“Makedir”
+       已完成执行任务“Makedir”的操作。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“MakeDirsForMidl”的操作。
+       由于条件的计算结果为 false，已跳过目标“Midl”；('@(Midl)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“CustomBuild”；('@(CustomBuild)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“FxCompile”；('@(FxCompile)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeMIDLGeneratedCompileInputs”(目标“_Midl”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ComputeMIDLGeneratedCompileInputs”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“AfterMidl”(目标“_Midl”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“AfterMidl”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_Midl”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_Midl”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets”中的目标“AfterBuildGenerateSources”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“AfterBuildGenerateSources”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“AfterBuildGenerateSourcesEvent”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“AfterBuildGenerateSourcesEvent”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_BuildGenerateSourcesAction”(目标“BuildGenerateSources”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_BuildGenerateSourcesAction”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildGenerateSources”(目标“Build”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“BuildGenerateSources”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildCompileTraverse”(目标“BuildCompile”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')计算为('' == 'true' and '' != '' and '' != ''  and '' == 'true')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“BuildCompileTraverse”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“BeforeClCompile”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“BeforeClCompile”的操作。
+       已跳过目标“ComputeMIDLGeneratedCompileInputs”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeCLInputPDBName”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ComputeCLInputPDBName”的操作。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeReferenceCLInput”(目标“_ClCompile”依赖于它):
+       由于 false 条件，已跳过任务“WriteLinesToFile”；(('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true')计算为((''!='') and '' != 'true')。
+       由于 false 条件，已跳过任务“Message”；('$(_REFERENCE_DEBUG)'=='true')计算为(''=='true')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ComputeReferenceCLInput”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“MakeDirsForCl”(目标“_ClCompile”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“MakeDirsForCl”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“SetBuildDefaultEnvironmentVariables”。以前的生成已成功。
+       已跳过目标“SetUserMacroEnvironmentVariables”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_SelectedFiles”(目标“SelectClCompile”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_SelectedFiles”的操作。
+       已跳过目标“ComputeMIDLGeneratedCompileInputs”。以前的生成已成功。
+       已跳过目标“ComputeCLInputPDBName”。以前的生成已成功。
+       已跳过目标“ComputeReferenceCLInput”。以前的生成已成功。
+       已跳过目标“_SelectedFiles”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“SelectCustomBuild”(目标“SelectClCompile”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“SelectCustomBuild”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“SelectClCompile”(目标“ClCompile”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“SelectClCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“GenerateTargetFrameworkMonikerAttribute”；('$(GenerateTargetFrameworkAttribute)' == 'true')的计算结果为('false' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“ManagedIncrementalBuildPreProcessDependencyGraph”；('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')的计算结果为('..\HttpClient.cpp;..\SocketIO.cpp;..\WebSocket.cpp' != '' and 'false' == 'True')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets”中的目标“ClCompile”(目标“_ClCompile”依赖于它):
+       任务“Delete”
+       已完成执行任务“Delete”的操作。
+       由于 false 条件，已跳过任务“CL”；('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '')计算为('' == 'Create' and ''!='true' and '' == '')。
+       正在使用程序集“Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“CL”任务。
+       任务“CL”
+         Forcing recompile of all source files due to missing PDB "Debug.win32\vc110.pdb".
+         传递给工具的环境变量为:
+           VS_UNICODE_OUTPUT=1172
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include" /I..\Include /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\websockets\include\win32 /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\curl\include\win32 /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\2d /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\2d\renderer /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\ui /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\base /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\physics /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\math\kazmath /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\2d\platform\win32 /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\2d\platform\desktop /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D COCOS2D_DEBUG=1 /D _VARIADIC_MAX=10 /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt ..\HttpClient.cpp ..\SocketIO.cpp ..\WebSocket.cpp
+         Tracking command:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\Debug.win32 /r "D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\NETWORK\HTTPCLIENT.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\NETWORK\SOCKETIO.CPP|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\NETWORK\WEBSOCKET.CPP" /b MSBuildConsole_CancelEventa1d011112dae47109f1c4a9d1ffeb2d7  /c "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe"  /c /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include" /I..\Include /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\websockets\include\win32 /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\curl\include\win32 /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\2d /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\2d\renderer /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\ui /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\base /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\physics /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\math\kazmath /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\2d\platform\win32 /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\cocos\2d\platform\desktop /ID:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"D:\DEMO\release\TowerDefense\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D COCOS2D_DEBUG=1 /D _VARIADIC_MAX=10 /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt ..\HttpClient.cpp ..\SocketIO.cpp ..\WebSocket.cpp
+         HttpClient.cpp
+         SocketIO.cpp
+         WebSocket.cpp
+       已完成执行任务“CL”的操作。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ClCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“ManagedIncrementalBuildPostProcessDependencyGraph”；('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')的计算结果为('..\HttpClient.cpp;..\SocketIO.cpp;..\WebSocket.cpp' != '' and 'false' == 'True')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“AfterClCompile”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“AfterClCompile”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_ClCompile”(目标“_BuildCompileAction”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_ClCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“_ResGen”；('@(EmbeddedResource)'!='')的计算结果为(''!='')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“BeforeResourceCompile”(目标“_ResourceCompile”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“BeforeResourceCompile”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“MakeDirsForResourceCompile”(目标“_ResourceCompile”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“MakeDirsForResourceCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“ResourceCompile”；('@(ResourceCompile)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“AfterResourceCompile”(目标“_ResourceCompile”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“AfterResourceCompile”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_ResourceCompile”(目标“_BuildCompileAction”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_ResourceCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“_ImpLib”；('$(ImpLibCompiled)' == 'true')的计算结果为('' == 'true')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“BeforeLib”(目标“_Lib”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“BeforeLib”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeLibAdditionalOptions”(目标“_Lib”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ComputeLibAdditionalOptions”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeRCOutputs”(目标“ComputeRCGeneratedLibInputs”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ComputeRCOutputs”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeRCGeneratedLibInputs”(目标“_Lib”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ComputeRCGeneratedLibInputs”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeCustomBuildOutput”(目标“_Lib”依赖于它):
+       由于 false 条件，已跳过任务“CreateItem”；('%(CustomBuildDirsToMake.OutputFileToTool)'!='')计算为(''!='')。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ComputeCustomBuildOutput”的操作。
+       已跳过目标“ComputeMIDLGeneratedCompileInputs”。以前的生成已成功。
+       已跳过目标“ComputeCLInputPDBName”。以前的生成已成功。
+       已跳过目标“ComputeReferenceCLInput”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeCLOutputs”(目标“ComputeCLGeneratedLibInputs”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ComputeCLOutputs”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeCLGeneratedLibInputs”(目标“_Lib”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ComputeCLGeneratedLibInputs”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeLibInputsFromProject”(目标“_Lib”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ComputeLibInputsFromProject”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeReferenceLibInputs”；(@(ProjectReference) != '')的计算结果为( != '')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“MakeDirsForLib”(目标“_Lib”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“MakeDirsForLib”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“DoLibOutputFilesMatch”(目标“_Lib”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('@(_OutputFileFromLib)' == '')计算为('D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\libNetwork.lib' == '')。
+       由于 false 条件，已跳过任务“VCMessage”；('@(_OutputFileFromLib)' != '' and '%(_OutputFileFromLib.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))')计算为('D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\libNetwork.lib' != '' and 'D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\libNetwork.lib' != 'D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\libNetwork.lib')。
+       由于 false 条件，已跳过任务“VCMessage”；('@(_OutputFileFromLib)' != '' and '%(_OutputFileFromLib.Extension)' != '$(TargetExt)')计算为('D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\libNetwork.lib' != '' and '.lib' != '.lib')。
+       由于 false 条件，已跳过任务“VCMessage”；('@(_OutputFileFromLib)' != '' and '%(_OutputFileFromLib.Filename)' != '$(TargetName)')计算为('D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\libNetwork.lib' != '' and 'libNetwork' != 'libNetwork')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“DoLibOutputFilesMatch”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets”中的目标“PreLinkEvent”(目标“_Lib”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '')计算为('' != '' and '' != '')。
+       由于 false 条件，已跳过任务“Exec”；('%(PreLinkEvent.Command)' != '')计算为('' != '')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“PreLinkEvent”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets”中的目标“Lib”(目标“_Lib”依赖于它):
+       正在使用程序集“Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“LIB”任务。
+       任务“LIB”
+         Forcing rebuild of all source files due to missing command TLog "D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\Debug.win32\lib.command.1.tlog".
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\libNetwork.lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /NOLOGO Debug.win32\HttpClient.obj
+         Debug.win32\SocketIO.obj
+         Debug.win32\WebSocket.obj
+         Tracking command:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\Debug.win32 /r "D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\NETWORK\PROJ.WIN32\DEBUG.WIN32\HTTPCLIENT.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\NETWORK\PROJ.WIN32\DEBUG.WIN32\SOCKETIO.OBJ|D:\DEMO\RELEASE\TOWERDEFENSE\COCOS2D\COCOS\NETWORK\PROJ.WIN32\DEBUG.WIN32\WEBSOCKET.OBJ" /b MSBuildConsole_CancelEvent92163f8260934da0a075c6b49d77361d  /c "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe"  /OUT:"D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\libNetwork.lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /NOLOGO Debug.win32\HttpClient.obj
+         Debug.win32\SocketIO.obj
+         Debug.win32\WebSocket.obj
+       已完成执行任务“LIB”的操作。
+       任务“Message”
+         libNetwork.vcxproj -> D:\DEMO\release\TowerDefense\proj.win32\Debug.win32\libNetwork.lib
+       已完成执行任务“Message”的操作。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“Lib”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“AfterLib”(目标“_Lib”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“AfterLib”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_Lib”(目标“_BuildCompileAction”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_Lib”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“AfterBuildCompileEvent”(目标“_BuildCompileAction”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“AfterBuildCompileEvent”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_BuildCompileAction”(目标“BuildCompile”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_BuildCompileAction”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildCompile”(目标“Build”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“BuildCompile”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildLinkTraverse”(目标“BuildLink”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')计算为('' == 'true' and '' != '' and '' != ''  and '' == 'true')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“BuildLinkTraverse”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeLegacyManifestEmbedding”(目标“_BuildLinkAction”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('$(RevertManifestEmbedding)' == 'true' and '$(_LegacyManifestEmbeddingDebug)' == 'true')计算为('' == 'true' and '' == 'true')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ComputeLegacyManifestEmbedding”的操作。
+       由于条件的计算结果为 false，已跳过目标“_Link”；('$(LinkCompiled)' == 'true')的计算结果为('' == 'true')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_ALink”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_ALink”的操作。
+       已跳过目标“ComputeLegacyManifestEmbedding”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_Manifest”(目标“_BuildLinkAction”依赖于它):
+       由于 false 条件，已跳过任务“CallTarget”；('$(LegacyManifestEmbedding)' == 'true')计算为('' == 'true')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_Manifest”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets”中的目标“RegisterOutput”(目标“_BuildLinkAction”依赖于它):
+       由于 false 条件，已跳过任务“Exec”；('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true')计算为('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''!='true')。
+       由于 false 条件，已跳过任务“Exec”；('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true')计算为('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''=='true')。
+       由于 false 条件，已跳过任务“Exec”；('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true')计算为('StaticLibrary'=='Application' and ''=='true' and ''!='true')。
+       由于 false 条件，已跳过任务“Exec”；('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true')计算为('StaticLibrary'=='Application' and ''=='true' and ''=='true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0')计算为('' != '' and '' != '0')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“RegisterOutput”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ResolvedXDCMake”(目标“_XdcMake”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true')计算为('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ResolvedXDCMake”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeCLCompileGeneratedXDCFiles”(目标“_XdcMake”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ComputeCLCompileGeneratedXDCFiles”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“MakeDirsForXdcMake”(目标“_XdcMake”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“MakeDirsForXdcMake”的操作。
+       由于条件的计算结果为 false，已跳过目标“XdcMake”；('@(XdcMake)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_XdcMake”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_XdcMake”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“ComputeCLCompileGeneratedSbrFiles”(目标“_BscMake”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“ComputeCLCompileGeneratedSbrFiles”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“MakeDirsForBscMake”(目标“_BscMake”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“MakeDirsForBscMake”的操作。
+       由于条件的计算结果为 false，已跳过目标“BscMake”；('@(BscMake)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“CustomBuildStep”；('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='')的计算结果为('' != '' and ''=='')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_BscMake”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_BscMake”的操作。
+       由于条件的计算结果为 false，已跳过目标“RunMergeNativeCodeAnalysis”；('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true')的计算结果为('C++'=='C++' and ''=='true')。
+       由于条件的计算结果为 false，已跳过目标“RunNativeCodeAnalysis”；('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true')的计算结果为('C++'=='C++' and ''=='true')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_GenerateSatelliteAssemblyInputs”(目标“CreateSatelliteAssemblies”依赖于它):
+       由于 false 条件，已跳过任务“Warning”；('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='')计算为(''!='' and ''=='')。
+       由于 false 条件，已跳过任务“Warning”；('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='')计算为(''!='' and ''=='')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_GenerateSatelliteAssemblyInputs”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeIntermediateSatelliteAssemblies”；(@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '')的计算结果为( != '')。
+       由于条件的计算结果为 false，已跳过目标“GenerateSatelliteAssemblies”；('@(_SatelliteAssemblyResourceInputs)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“CreateSatelliteAssemblies”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“CreateSatelliteAssemblies”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_Appverifier”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_Appverifier”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_Deploy”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_Deploy”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeIntermediateSatelliteAssemblies”；(@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '')的计算结果为( != '')。
+       由于条件的计算结果为 false，已跳过目标“_CopyFilesMarkedCopyLocal”；('@(ReferenceCopyLocalPaths)' != '')的计算结果为('' != '')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“AssignTargetPaths”(目标“GetCopyToOutputDirectoryItems”依赖于它):
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       由于 false 条件，已跳过任务“AssignTargetPath”；('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest')计算为(''=='' and ''=='.manifest')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“AssignTargetPaths”的操作。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets”中的目标“GetCopyToOutputDirectoryXamlAppDefs”(目标“GetCopyToOutputDirectoryItems”依赖于它):
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“GetCopyToOutputDirectoryXamlAppDefs”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“GetCopyToOutputDirectoryItems”(目标“_CopySourceItemsToOutputDirectory”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true')计算为('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true')。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“GetCopyToOutputDirectoryItems”的操作。
+       由于条件的计算结果为 false，已跳过目标“_CopyOutOfDateSourceItemsToOutputDirectory”；( '@(_SourceItemsToCopyToOutputDirectory)' != '' )的计算结果为( '' != '' )。
+       由于条件的计算结果为 false，已跳过目标“_CopyOutOfDateSourceItemsToOutputDirectoryAlways”；( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' )的计算结果为( '' != '' )。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_CopySourceItemsToOutputDirectory”(目标“CopyFilesToOutputDirectory”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_CopySourceItemsToOutputDirectory”的操作。
+       由于条件的计算结果为 false，已跳过目标“_CopyAppConfigFile”；( '@(AppConfigWithTargetPath)' != '' )的计算结果为( '' != '' )。
+       由于条件的计算结果为 false，已跳过目标“_CopyManifestFiles”；( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' )的计算结果为( ''=='true' or ''=='true' )。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_CheckForCompileOutputs”(目标“CopyFilesToOutputDirectory”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_CheckForCompileOutputs”的操作。
+       由于条件的计算结果为 false，已跳过目标“_SGenCheckForOutputs”；('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto'))的计算结果为('Off' == 'On' or (''!='' and 'Off' == 'Auto'))。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“CopyFilesToOutputDirectory”(目标“PrepareForRun”依赖于它):
+       由于 false 条件，已跳过任务“Copy”；('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true')计算为('true' == 'true' and 'true' != 'true')。
+       由于 false 条件，已跳过任务“Message”；('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true')计算为('true' == 'true' and 'true'!='true')。
+       由于 false 条件，已跳过任务“Copy”；('@(AddModules)' != '')计算为('' != '')。
+       由于 false 条件，已跳过任务“Copy”；('$(_SGenDllCreated)'=='true')计算为('false'=='true')。
+       由于 false 条件，已跳过任务“Copy”；('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true')计算为('false'=='true' and '' != 'true' and 'true'=='true')。
+       由于 false 条件，已跳过任务“Copy”；('$(_DocumentationFileProduced)'=='true')计算为('false'=='true')。
+       由于 false 条件，已跳过任务“Copy”；('@(IntermediateSatelliteAssembliesWithTargetPath)' != '')计算为('' != '')。
+       由于 false 条件，已跳过任务“Copy”；('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' )计算为('' != '' or '' != '' or '' != '' or '' != '' )。
+       由于 false 条件，已跳过任务“Copy”；('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '')计算为('' != 'true' and '' != '')。
+       由于 false 条件，已跳过任务“Message”；('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '')计算为('' != 'true' and '' != '')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“CopyFilesToOutputDirectory”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“PrepareForRun”(目标“_BuildLinkAction”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“PrepareForRun”的操作。
+       由于条件的计算结果为 false，已跳过目标“CustomBuildStep”；('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='')的计算结果为('' != '' and ''=='')。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets”中的目标“PostBuildEvent”(目标“_BuildLinkAction”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '')计算为('' != '' and '' != '')。
+       由于 false 条件，已跳过任务“Exec”；('%(PostBuildEvent.Command)' != '')计算为('' != '')。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“PostBuildEvent”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“_BuildLinkAction”(目标“BuildLink”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“_BuildLinkAction”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildLink”(目标“Build”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“BuildLink”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets”中的目标“AfterBuild”(目标“Build”依赖于它):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“AfterBuild”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets”中的目标“FinalizeBuildStatus”(目标“Build”依赖于它):
+       任务“Delete”
+         正在删除文件“Debug.win32\libNetwork.unsuccessfulbuild”。
+       已完成执行任务“Delete”的操作。
+       任务“Touch”
+         正在对“Debug.win32\libNetwork.lastbuildstate”执行 Touch 任务。
+       已完成执行任务“Touch”的操作。
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“FinalizeBuildStatus”的操作。
+     1>来自项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets”中的目标“Build”(入口点):
+     1>已完成在项目“libNetwork.vcxproj”中生成目标“Build”的操作。
+     1>已完成生成项目“D:\DEMO\release\TowerDefense\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:02:34.34
